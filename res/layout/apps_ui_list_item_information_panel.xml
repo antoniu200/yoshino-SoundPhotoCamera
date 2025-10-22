@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.cameracommon.appsui.view.information.InformationModePanelView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/information_mode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/information_mode_list_category_separator" android:background="#ffaaaaaa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <FrameLayout android:id="@id/information_mode_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/information_mode_list_title_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/apps_list_item_title_height">
+                <TextView android:textSize="@dimen/apps_list_item_category_title_text_size" android:textStyle="normal" android:layout_gravity="start|center" android:id="@id/information_mode_list_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:textDirection="locale" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/error_message_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/apps_list_item_title_height" android:layout_marginLeft="@dimen/apps_list_item_icon_container_width" android:layout_marginRight="@dimen/apps_grid_item_name_text_area_top_margin">
+                <TextView android:textSize="@dimen/apps_list_item_app_description_text_size" android:textColor="@color/apps_list_item_text_color_error" android:layout_gravity="start|center" android:id="@id/error_message" android:paddingBottom="18.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cam_strings_capturing_mode_network_error_txt" android:maxLines="2" android:importantForAccessibility="no" android:textDirection="locale" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/information_mode_list_content_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip">
+                    <FrameLayout android:layout_width="@dimen/apps_list_item_icon_container_width" android:layout_height="fill_parent">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/information_mode_list_item_app_icon" android:layout_width="@dimen/apps_list_item_icon_width" android:layout_height="@dimen/apps_list_item_icon_height" android:scaleType="fitCenter" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/apps_list_item_app_title_text_size" android:textColor="@color/apps_list_item_text_color_title" android:id="@id/information_mode_list_item_app_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+                        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_list_item_descriptions_margin">
+                            <TextView android:textSize="@dimen/apps_list_item_app_developer_text_size" android:textColor="@color/apps_list_item_text_color_developer" android:id="@id/information_mode_list_item_app_developer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+                            <TextView android:textSize="@dimen/apps_list_item_app_description_text_size" android:textColor="@color/apps_list_item_text_color_description" android:ellipsize="end" android:id="@id/information_mode_list_item_app_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textDirection="locale" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_gravity="bottom" android:id="@id/information_mode_list_content_separator" android:background="#88888888" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/apps_list_item_icon_container_width" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.sonyericsson.cameracommon.appsui.view.information.InformationModePanelView>

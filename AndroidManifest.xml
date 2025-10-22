@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.sonymobile.android.addoncamera.soundphoto" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="com.sonymobile.permission.CAMERA_ADDON"/>
+    <uses-permission android:name="com.sonyericsson.permission.CAMERA_EXTENDED"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="com.sonymobile.permission.SYSTEM_UI_VISIBILITY_EXTENSIONS"/>
+    <compatible-screens/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/cam_application_soundphoto_video_icn" android:label="@string/cam_strings_application_name_soundphoto_txt" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboardHidden|mcc|mnc|orientation|screenSize|uiMode" android:label="@string/cam_strings_capturing_mode_soundphoto_txt" android:launchMode="singleTask" android:maxAspectRatio="2.0" android:name="com.sonymobile.android.addoncamera.soundphoto.SoundPhotoCameraActivity" android:screenOrientation="landscape" android:theme="@style/SomcCameraTheme" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonymobile.camera.addon.action.REGISTER_MODE"/>
+            </intent-filter>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_ATTRIBUTES" android:resource="@xml/mode_attributes"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_NAME" android:value="capturing_mode_soundphoto"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_SELECTOR_ICON" android:resource="@drawable/cam_cap_mode_soundphoto_video_icn"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_SELECTOR_LABEL" android:resource="@string/cam_strings_capturing_mode_soundphoto_txt"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_DESCRIPTION_LABEL" android:resource="@string/cam_strings_description_shoundphoto_txt"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_SHORTCUT_ICON" android:resource="@drawable/cam_app_shortcut_soundphoto_video_icn"/>
+            <meta-data android:name="com.sonymobile.camera.addon.MODE_SHORTCUT_LABEL" android:resource="@string/cam_strings_capturing_mode_soundphoto_txt"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:label="RequestPermissionActivity" android:name="com.sonyericsson.cameracommon.activity.RequestPermissionActivity" android:theme="@style/SomcCameraTheme"/>
+        <activity android:configChanges="keyboard|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.sonyericsson.cameracommon.activity.RequestPermissionSdCardActivity" android:resizeableActivity="false" android:theme="@style/SomcCameraTheme"/>
+        <provider android:authorities="com.sonymobile.android.addoncamera.soundphoto.provider" android:exported="false" android:name="com.sonymobile.android.addoncamera.soundphoto.provider.SoundPhotoSettingsProvider"/>
+        <uses-library android:name="com.sonymobile.camera.addon.api"/>
+        <uses-library android:name="com.sonyericsson.idd" android:required="false"/>
+        <uses-library android:name="com.google.protobuf-2.3.0" android:required="false"/>
+        <uses-library android:name="com.sonymobile.getmore.api" android:required="false"/>
+        <uses-library android:name="com.sonymobile.album.internal.albumintent.api" android:required="false"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.0.2"/>
+    </application>
+</manifest>

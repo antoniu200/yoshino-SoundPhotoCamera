@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.android.addoncamera.soundphoto.view.SoundRecordingIndicator android:orientation="horizontal" android:id="@id/sound_indicator_container" android:paddingBottom="@dimen/sound_indicator_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/indicator_main_icon" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_soundphoto_mic_icn" />
+        <FrameLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/indicator_container" android:layout_width="@dimen/sound_indicator_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sound_indicator_margin_left">
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/indicator_container0" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/indicator_container1" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+            <LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/indicator_container2" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+        </FrameLayout>
+    </LinearLayout>
+</com.sonymobile.android.addoncamera.soundphoto.view.SoundRecordingIndicator>
