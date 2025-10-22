@@ -1,0 +1,46 @@
+.class public final Lcom/sonymobile/android/addoncamera/soundphoto/R$bool;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sonymobile/android/addoncamera/soundphoto/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "bool"
+.end annotation
+
+
+# static fields
+.field public static final abc_action_bar_embed_tabs:I = 0x7f0b0000
+
+.field public static final abc_allow_stacked_button_bar:I = 0x7f0b0003
+
+.field public static final abc_config_actionMenuItemAllCaps:I = 0x7f0b0004
+
+.field public static final abc_config_closeDialogWhenTouchOutside:I = 0x7f0b0005
+
+.field public static final abc_config_showMenuShortcutsWhenKeyboardPresent:I = 0x7f0b0006
+
+.field public static final disable_mms:I = 0x7f0b0007
+
+.field public static final display_frontcamera_location_indication:I = 0x7f0b0008
+
+.field public static final is_tablet:I = 0x7f0b0001
+
+.field public static final is_ten_inch:I = 0x7f0b0002
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .prologue
+    .line 1877
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
