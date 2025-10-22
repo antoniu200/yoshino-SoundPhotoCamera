@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="abc_action_bar_home_description" tools:ignore="MissingTranslation">Navigate home</string>
+    <string name="abc_action_bar_home_description_format" tools:ignore="MissingTranslation">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format" tools:ignore="MissingTranslation">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description" tools:ignore="MissingTranslation">Navigate up</string>
+    <string name="abc_action_menu_overflow_description" tools:ignore="MissingTranslation">More options</string>
+    <string name="abc_action_mode_done" tools:ignore="MissingTranslation">Done</string>
+    <string name="abc_activity_chooser_view_see_all" tools:ignore="MissingTranslation">See all</string>
+    <string name="abc_activitychooserview_choose_application" tools:ignore="MissingTranslation">Choose an app</string>
+    <string name="abc_capital_off" tools:ignore="MissingTranslation">OFF</string>
+    <string name="abc_capital_on" tools:ignore="MissingTranslation">ON</string>
+    <string name="abc_search_hint" tools:ignore="MissingTranslation">Search…</string>
+    <string name="abc_searchview_description_clear" tools:ignore="MissingTranslation">Clear query</string>
+    <string name="abc_searchview_description_query" tools:ignore="MissingTranslation">Search query</string>
+    <string name="abc_searchview_description_search" tools:ignore="MissingTranslation">Search</string>
+    <string name="abc_searchview_description_submit" tools:ignore="MissingTranslation">Submit query</string>
+    <string name="abc_searchview_description_voice" tools:ignore="MissingTranslation">Voice search</string>
+    <string name="abc_shareactionprovider_share_with" tools:ignore="MissingTranslation">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application" tools:ignore="MissingTranslation">Share with %s</string>
+    <string name="abc_toolbar_collapse_description" tools:ignore="MissingTranslation">Collapse</string>
+    <string name="common_android_wear_notification_needs_update_text" tools:ignore="MissingTranslation">%1$s requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text" tools:ignore="MissingTranslation">"%1$s won't run unless you update the Android Wear app."</string>
+    <string name="common_android_wear_update_title" tools:ignore="MissingTranslation">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text" tools:ignore="MissingTranslation">%1$s requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_enable_button" tools:ignore="MissingTranslation">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" tools:ignore="MissingTranslation">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title" tools:ignore="MissingTranslation">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg" tools:ignore="MissingTranslation">Requested by %1$s</string>
+    <string name="common_google_play_services_install_button" tools:ignore="MissingTranslation">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" tools:ignore="MissingTranslation">"%1$s won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet" tools:ignore="MissingTranslation">"%1$s won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title" tools:ignore="MissingTranslation">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text" tools:ignore="MissingTranslation">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title" tools:ignore="MissingTranslation">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title" tools:ignore="MissingTranslation">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text" tools:ignore="MissingTranslation">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title" tools:ignore="MissingTranslation">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title" tools:ignore="MissingTranslation">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker" tools:ignore="MissingTranslation">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text" tools:ignore="MissingTranslation">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title" tools:ignore="MissingTranslation">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue" tools:ignore="MissingTranslation">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text" tools:ignore="MissingTranslation">%1$s relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title" tools:ignore="MissingTranslation">Google Play services</string>
+    <string name="common_google_play_services_update_button" tools:ignore="MissingTranslation">Update</string>
+    <string name="common_google_play_services_update_text" tools:ignore="MissingTranslation">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title" tools:ignore="MissingTranslation">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text" tools:ignore="MissingTranslation">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_updating_title" tools:ignore="MissingTranslation">Google Play services are updating</string>
+    <string name="common_open_on_phone" tools:ignore="MissingTranslation">Open on phone</string>
+    <string name="search_menu_title" tools:ignore="MissingTranslation">Search</string>
+    <string name="status_bar_notification_info_overflow" tools:ignore="MissingTranslation">999+</string>
+    <string name="cam_3d_strings_creating_but_incorrect_direction_txt" tools:ignore="MissingTranslation">Could not complete the capturing. Please pan in the correct direction.</string>
+    <string name="cam_3d_strings_creating_but_too_quick_txt" tools:ignore="MissingTranslation">Could not complete the capturing. Please pan more slowly.</string>
+    <string name="cam_3d_strings_creating_but_too_slow_txt" tools:ignore="MissingTranslation">Could not complete the capturing. Please pan faster.</string>
+    <string name="cam_3d_strings_description_sweep_panorama_txt" tools:ignore="MissingTranslation">Take a panoramic photo by sweeping your camera</string>
+    <string name="cam_3d_strings_dialog_multi_angle_processing_include_black_area_txt" tools:ignore="MissingTranslation">"Creating the following files:
+- Multi Angle image
+- 3D image
+Note: These files contain a gray area."</string>
+    <string name="cam_3d_strings_dialog_multi_angle_processing_txt" tools:ignore="MissingTranslation">"Creating the following files:
+- Multi Angle image
+- 3D image"</string>
+    <string name="cam_3d_strings_dialog_processing_include_black_area_txt" tools:ignore="MissingTranslation">"Processing...
+This image contains a gray area"</string>
+    <string name="cam_3d_strings_dialog_processing_saving_image_title_txt" tools:ignore="MissingTranslation">Saving image</string>
+    <string name="cam_3d_strings_dialog_processing_txt" tools:ignore="MissingTranslation">Processing...</string>
+    <string name="cam_3d_strings_error_application_busy_txt" tools:ignore="MissingTranslation">Please wait for a few seconds to launch 3D camera</string>
+    <string name="cam_3d_strings_error_capturing_during_connecting_tv_title_txt" tools:ignore="MissingTranslation">Error</string>
+    <string name="cam_3d_strings_error_capturing_during_connecting_tv_txt" tools:ignore="MissingTranslation">Unplug the cable. You cannot take a photo in this mode with a cable connected.</string>
+    <string name="cam_3d_strings_error_direction_txt" tools:ignore="MissingTranslation">Could not take picture. Please pan in the correct direction.</string>
+    <string name="cam_3d_strings_error_too_quick_txt" tools:ignore="MissingTranslation">Could not take picture. Please pan more slowly.</string>
+    <string name="cam_3d_strings_error_too_slow_txt" tools:ignore="MissingTranslation">Could not take picture. Please pan faster.</string>
+    <string name="cam_3d_strings_setting_shooting_direction_down_txt" tools:ignore="MissingTranslation">Down</string>
+    <string name="cam_3d_strings_setting_shooting_direction_left_txt" tools:ignore="MissingTranslation">Left</string>
+    <string name="cam_3d_strings_setting_shooting_direction_right_txt" tools:ignore="MissingTranslation">Right</string>
+    <string name="cam_3d_strings_setting_shooting_direction_title_txt" tools:ignore="MissingTranslation">Shooting direction</string>
+    <string name="cam_3d_strings_setting_shooting_direction_up_txt" tools:ignore="MissingTranslation">Up</string>
+    <string name="cam_3d_strings_shooting_direction_guide_txt" tools:ignore="MissingTranslation">Change direction by tapping icon on the left</string>
+    <string name="cam_3d_strings_shooting_failure_title_txt" tools:ignore="MissingTranslation">Could not shoot</string>
+    <string name="cam_3d_strings_shooting_guide_down_to_up_txt" tools:ignore="MissingTranslation">Pan from down to up</string>
+    <string name="cam_3d_strings_shooting_guide_left_to_right_txt" tools:ignore="MissingTranslation">Pan from left to right</string>
+    <string name="cam_3d_strings_shooting_guide_pan_too_fast_txt" tools:ignore="MissingTranslation">Pan more slowly</string>
+    <string name="cam_3d_strings_shooting_guide_press_key_txt" tools:ignore="MissingTranslation">Press the camera key and slowly pan the camera</string>
+    <string name="cam_3d_strings_shooting_guide_right_to_left_txt" tools:ignore="MissingTranslation">Pan from right to left</string>
+    <string name="cam_3d_strings_shooting_guide_touch_cap_txt" tools:ignore="MissingTranslation">Tap the camera button and slowly pan the camera</string>
+    <string name="cam_3d_strings_shooting_guide_up_to_down_txt" tools:ignore="MissingTranslation">Pan from up to down</string>
+    <string name="cam_3d_strings_sweep_panorama_short_txt" tools:ignore="MissingTranslation">Sweep Panorama</string>
+    <string name="cam_app_shortcut_front_photo_txt" tools:ignore="MissingTranslation">Front photo</string>
+    <string name="cam_app_shortcut_manual_txt" tools:ignore="MissingTranslation">Manual</string>
+    <string name="cam_app_shortcut_video_txt" tools:ignore="MissingTranslation">Video</string>
+    <string name="cam_string_dualrec_m_apr_txt" tools:ignore="MissingTranslation">April %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_aug_txt" tools:ignore="MissingTranslation">August %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_dec_txt" tools:ignore="MissingTranslation">December %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_feb_txt" tools:ignore="MissingTranslation">February %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_jan_txt" tools:ignore="MissingTranslation">January %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_jul_txt" tools:ignore="MissingTranslation">July %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_jun_txt" tools:ignore="MissingTranslation">June %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_mar_txt" tools:ignore="MissingTranslation">March %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_may_txt" tools:ignore="MissingTranslation">May %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_nov_txt" tools:ignore="MissingTranslation">November %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_oct_txt" tools:ignore="MissingTranslation">October %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_m_sep_txt" tools:ignore="MissingTranslation">September %1$td, %2$tY</string>
+    <string name="cam_string_dualrec_t_am_txt" tools:ignore="MissingTranslation">%1$tl:%2$tM AM</string>
+    <string name="cam_string_dualrec_t_pm_txt" tools:ignore="MissingTranslation">%1$tl:%2$tM PM</string>
+    <string name="cam_strings_accessibility_auto_review_txt" tools:ignore="MissingTranslation">Auto photo preview</string>
+    <string name="cam_strings_accessibility_back_main_txt" tools:ignore="MissingTranslation">Back</string>
+    <string name="cam_strings_accessibility_back_txt" tools:ignore="MissingTranslation">Back</string>
+    <string name="cam_strings_accessibility_capturing_mode_txt" tools:ignore="MissingTranslation">Capturing mode</string>
+    <string name="cam_strings_accessibility_close_color_button_txt" tools:ignore="MissingTranslation">Close color adjustment</string>
+    <string name="cam_strings_accessibility_color_brightness_button_txt" tools:ignore="MissingTranslation">Close color and brightness adjustment</string>
+    <string name="cam_strings_accessibility_dual_effect_menu_txt" tools:ignore="MissingTranslation">Dual camera effect</string>
+    <string name="cam_strings_accessibility_flash_torch_txt" tools:ignore="MissingTranslation">Flashlight</string>
+    <string name="cam_strings_accessibility_flash_txt" tools:ignore="MissingTranslation">Flash</string>
+    <string name="cam_strings_accessibility_fusion_auto_txt" tools:ignore="MissingTranslation">Double-tap to switch to auto dual camera</string>
+    <string name="cam_strings_accessibility_fusion_off_txt" tools:ignore="MissingTranslation">Double tap to turn on Dual camera</string>
+    <string name="cam_strings_accessibility_fusion_on_txt" tools:ignore="MissingTranslation">Double tap to turn off Dual camera</string>
+    <string name="cam_strings_accessibility_image_quality_control_exposure_value_txt" tools:ignore="MissingTranslation">Exposure value</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_auto_deselected_txt" tools:ignore="MissingTranslation">Auto deselected</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_auto_selected_txt" tools:ignore="MissingTranslation">Auto selected</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_auto_txt" tools:ignore="MissingTranslation">Autofocus</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_manual_adjusted_txt" tools:ignore="MissingTranslation">Focal length changed</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_manual_txt" tools:ignore="MissingTranslation">Manual focus</string>
+    <string name="cam_strings_accessibility_image_quality_control_focus_txt" tools:ignore="MissingTranslation">Focus</string>
+    <string name="cam_strings_accessibility_image_quality_control_shutter_speed_auto_deselected_txt" tools:ignore="MissingTranslation">Auto deselected</string>
+    <string name="cam_strings_accessibility_image_quality_control_shutter_speed_auto_selected_txt" tools:ignore="MissingTranslation">Auto selected</string>
+    <string name="cam_strings_accessibility_image_quality_control_shutter_speed_txt" tools:ignore="MissingTranslation">Shutter speed</string>
+    <string name="cam_strings_accessibility_image_quality_control_white_balance_txt" tools:ignore="MissingTranslation">White balance</string>
+    <string name="cam_strings_accessibility_information_txt" tools:ignore="MissingTranslation">Information</string>
+    <string name="cam_strings_accessibility_menu_txt" tools:ignore="MissingTranslation">Menu</string>
+    <string name="cam_strings_accessibility_not_configurable_txt" tools:ignore="MissingTranslation">Not configurable</string>
+    <string name="cam_strings_accessibility_open_color_button_txt" tools:ignore="MissingTranslation">Open color adjustment</string>
+    <string name="cam_strings_accessibility_other_settings_txt" tools:ignore="MissingTranslation">Other settings</string>
+    <string name="cam_strings_accessibility_pause_button_txt" tools:ignore="MissingTranslation">Pause</string>
+    <string name="cam_strings_accessibility_photo_setting_txt" tools:ignore="MissingTranslation">Camera settings</string>
+    <string name="cam_strings_accessibility_predictive_capture_txt" tools:ignore="MissingTranslation">Predictive Capture</string>
+    <string name="cam_strings_accessibility_recent_photo_txt" tools:ignore="MissingTranslation">A stack of recent photos</string>
+    <string name="cam_strings_accessibility_recording_button_txt" tools:ignore="MissingTranslation">Record</string>
+    <string name="cam_strings_accessibility_recording_slow_motion_button_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_accessibility_recording_slow_motion_exti_button_txt" tools:ignore="MissingTranslation">Exit Slow motion</string>
+    <string name="cam_strings_accessibility_recording_stop_button_txt" tools:ignore="MissingTranslation">Stop</string>
+    <string name="cam_strings_accessibility_self_timer_stop_button_txt" tools:ignore="MissingTranslation">Stop counting down</string>
+    <string name="cam_strings_accessibility_shutter_button_txt" tools:ignore="MissingTranslation">Camera key</string>
+    <string name="cam_strings_accessibility_soundphoto_play_txt" tools:ignore="MissingTranslation">Play the sound</string>
+    <string name="cam_strings_accessibility_superior_auto_color_brightness_txt" tools:ignore="MissingTranslation">Color and brightness adjustment</string>
+    <string name="cam_strings_accessibility_swf_normal_txt" tools:ignore="MissingTranslation">Double tap to switch to normal mode</string>
+    <string name="cam_strings_accessibility_swf_wide_txt" tools:ignore="MissingTranslation">Double tap to switch to wide angle mode</string>
+    <string name="cam_strings_accessibility_switch_to_front_by_swiping_txt" tools:ignore="MissingTranslation">Switched to front camera</string>
+    <string name="cam_strings_accessibility_switch_to_front_txt" tools:ignore="MissingTranslation">Double tap to switch to front camera</string>
+    <string name="cam_strings_accessibility_switch_to_main_by_swiping_txt" tools:ignore="MissingTranslation">Switched to main camera</string>
+    <string name="cam_strings_accessibility_switch_to_main_txt" tools:ignore="MissingTranslation">Double-tap to switch to the main camera</string>
+    <string name="cam_strings_accessibility_switch_to_photo_txt" tools:ignore="MissingTranslation">Double tap to switch to camera</string>
+    <string name="cam_strings_accessibility_switch_to_video_txt" tools:ignore="MissingTranslation">Double tap to switch to video</string>
+    <string name="cam_strings_accessibility_video_hdr_hlg_off_txt" tools:ignore="MissingTranslation">Double tap to turn on HDR</string>
+    <string name="cam_strings_accessibility_video_hdr_hlg_on_txt" tools:ignore="MissingTranslation">Double tap to turn off HDR</string>
+    <string name="cam_strings_accessibility_video_setting_txt" tools:ignore="MissingTranslation">Video settings</string>
+    <string name="cam_strings_accessibility_viewer_txt" tools:ignore="MissingTranslation">Open with the image viewer</string>
+    <string name="cam_strings_advanced_setting_geo_tag_both_off_txt" tools:ignore="MissingTranslation">To save locations, you have to enable GPS and/or wireless networks. Enable now?</string>
+    <string name="cam_strings_advanced_setting_geo_tag_title_txt" tools:ignore="MissingTranslation">Save location</string>
+    <string name="cam_strings_application_name_creative_effect_txt" tools:ignore="MissingTranslation">Creative effect</string>
+    <string name="cam_strings_application_name_dualrec_txt" tools:ignore="MissingTranslation">Face in picture</string>
+    <string name="cam_strings_application_name_facefusion_txt" tools:ignore="MissingTranslation">AR mask</string>
+    <string name="cam_strings_application_name_google_lens_txt" tools:ignore="MissingTranslation">Google Lens</string>
+    <string name="cam_strings_application_name_multicam_txt" tools:ignore="MissingTranslation">Multi camera</string>
+    <string name="cam_strings_application_name_soundphoto_txt" tools:ignore="MissingTranslation">Sound Photo</string>
+    <string name="cam_strings_application_name_sweep_panorama_txt" tools:ignore="MissingTranslation">Sweep Panorama</string>
+    <string name="cam_strings_application_name_timeshift_txt" tools:ignore="MissingTranslation">Timeshift burst</string>
+    <string name="cam_strings_application_name_txt" tools:ignore="MissingTranslation">Camera</string>
+    <string name="cam_strings_application_name_video_txt" tools:ignore="MissingTranslation">Video</string>
+    <string name="cam_strings_apps_list_add_txt" tools:ignore="MissingTranslation">Add</string>
+    <string name="cam_strings_apps_list_downloadable_txt" tools:ignore="MissingTranslation">Downloadable</string>
+    <string name="cam_strings_apps_list_installed_txt" tools:ignore="MissingTranslation">Installed</string>
+    <string name="cam_strings_apps_list_txt" tools:ignore="MissingTranslation">Camera apps</string>
+    <string name="cam_strings_art_filter_guesture_guide_general_txt" tools:ignore="MissingTranslation">Use your fingers to edit the displayed image</string>
+    <string name="cam_strings_art_filter_guesture_guide_tap_txt" tools:ignore="MissingTranslation">Tap the portion you want to color</string>
+    <string name="cam_strings_aspect_ratio_txt" tools:ignore="MissingTranslation">Aspect ratio</string>
+    <string name="cam_strings_auto_power_off_txt" tools:ignore="MissingTranslation">Camera will close soon due to inactivity</string>
+    <string name="cam_strings_auto_scene_recognition_txt" tools:ignore="MissingTranslation">Auto scene recognition</string>
+    <string name="cam_strings_auto_upload_all_title_txt" tools:ignore="MissingTranslation">Auto upload</string>
+    <string name="cam_strings_auto_upload_all_txt" tools:ignore="MissingTranslation">Auto upload</string>
+    <string name="cam_strings_balloon_tips_modeselector_title_txt" tools:ignore="MissingTranslation">Try different capturing modes</string>
+    <string name="cam_strings_balloon_tips_modeselector_txt" tools:ignore="MissingTranslation">Tap this to select another mode</string>
+    <string name="cam_strings_balloon_tips_timeshift_title_txt" tools:ignore="MissingTranslation">Select the best moment</string>
+    <string name="cam_strings_balloon_tips_timeshift_txt" tools:ignore="MissingTranslation">Find the best shot by sliding the thumbnails up or down</string>
+    <string name="cam_strings_bokeh_title_txt" tools:ignore="MissingTranslation">Bokeh</string>
+    <string name="cam_strings_burst_battery_level_low_txt" tools:ignore="MissingTranslation">Cannot burst due to low battery</string>
+    <string name="cam_strings_burst_change_camera_key_setting_txt" tools:ignore="MissingTranslation">Turn on Burst with camera key settings to enable burst shot</string>
+    <string name="cam_strings_burst_in_dark_condition_txt" tools:ignore="MissingTranslation">Cannot burst in dark condition</string>
+    <string name="cam_strings_burst_not_supported_front_camera_txt" tools:ignore="MissingTranslation">Cannot burst using front camera</string>
+    <string name="cam_strings_burst_not_supported_fusion_on_txt" tools:ignore="MissingTranslation">Cannot burst with Dual camera On</string>
+    <string name="cam_strings_burst_saved_internal_storage_txt" tools:ignore="MissingTranslation">Burst photos are saved to internal storage</string>
+    <string name="cam_strings_burst_shooting_txt" tools:ignore="MissingTranslation">Burst speed</string>
+    <string name="cam_strings_camera_apps_tab_txt" tools:ignore="MissingTranslation">CAMERA APPS</string>
+    <string name="cam_strings_camera_key_setting_burst_shot_txt" tools:ignore="MissingTranslation">Burst shot</string>
+    <string name="cam_strings_camera_key_setting_take_photo_txt" tools:ignore="MissingTranslation">Take a photo</string>
+    <string name="cam_strings_camera_key_setting_txt" tools:ignore="MissingTranslation">Burst with camera key</string>
+    <string name="cam_strings_camera_sound_txt" tools:ignore="MissingTranslation">Sound</string>
+    <string name="cam_strings_camera_switching_txt" tools:ignore="MissingTranslation">Camera switch</string>
+    <string name="cam_strings_cancel_txt" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="cam_strings_capturing_mode_4k2k_txt" tools:ignore="MissingTranslation">4K video</string>
+    <string name="cam_strings_capturing_mode_auto_txt" tools:ignore="MissingTranslation">Photo</string>
+    <string name="cam_strings_capturing_mode_button_txt" tools:ignore="MissingTranslation">Mode</string>
+    <string name="cam_strings_capturing_mode_camera_txt" tools:ignore="MissingTranslation">Camera</string>
+    <string name="cam_strings_capturing_mode_creative_effect_txt" tools:ignore="MissingTranslation">Creative effect</string>
+    <string name="cam_strings_capturing_mode_dualrec_txt" tools:ignore="MissingTranslation">Face in picture</string>
+    <string name="cam_strings_capturing_mode_facefusion_txt" tools:ignore="MissingTranslation">AR mask</string>
+    <string name="cam_strings_capturing_mode_google_lens_txt" tools:ignore="MissingTranslation">Google Lens</string>
+    <string name="cam_strings_capturing_mode_high_frame_rate_txt" tools:ignore="MissingTranslation">Timeshift video</string>
+    <string name="cam_strings_capturing_mode_manual_txt" tools:ignore="MissingTranslation">Manual</string>
+    <string name="cam_strings_capturing_mode_multicam_txt" tools:ignore="MissingTranslation">Multi camera</string>
+    <string name="cam_strings_capturing_mode_network_error_txt" tools:ignore="MissingTranslation">Could not complete data download</string>
+    <string name="cam_strings_capturing_mode_portraitselfie_txt" tools:ignore="MissingTranslation">Portrait selfie</string>
+    <string name="cam_strings_capturing_mode_slow_motion_txt" tools:ignore="MissingTranslation">Video (Slow motion)</string>
+    <string name="cam_strings_capturing_mode_soundphoto_txt" tools:ignore="MissingTranslation">Sound Photo</string>
+    <string name="cam_strings_capturing_mode_superior_auto_cy_txt" tools:ignore="MissingTranslation">Superior auto</string>
+    <string name="cam_strings_capturing_mode_superior_auto_txt" tools:ignore="MissingTranslation">Superior auto</string>
+    <string name="cam_strings_capturing_mode_timeshift_txt" tools:ignore="MissingTranslation">Timeshift burst</string>
+    <string name="cam_strings_capturing_mode_title_txt" tools:ignore="MissingTranslation">Capturing mode</string>
+    <string name="cam_strings_change_full_storage_to_internal_txt" tools:ignore="MissingTranslation">SD card full. Default data storage changed to Internal storage.</string>
+    <string name="cam_strings_change_save_destination_high_frame_rate_title_txt" tools:ignore="MissingTranslation">Timeshift video</string>
+    <string name="cam_strings_change_save_destination_slowmotion_title_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_change_save_destination_title_txt" tools:ignore="MissingTranslation">4K video</string>
+    <string name="cam_strings_change_storage_to_sd_txt" tools:ignore="MissingTranslation">SD card inserted. Change default data storage to SD card?</string>
+    <string name="cam_strings_change_txt" tools:ignore="MissingTranslation">Change</string>
+    <string name="cam_strings_close_txt" tools:ignore="MissingTranslation">Close</string>
+    <string name="cam_strings_color_brightness_txt" tools:ignore="MissingTranslation">Color and brightness</string>
+    <string name="cam_strings_common_error_internal_memory_full_txt" tools:ignore="MissingTranslation">Internal storage full. Save data in SD card instead?</string>
+    <string name="cam_strings_common_error_internal_memory_unavailable_txt" tools:ignore="MissingTranslation">Internal storage is corrupt or write protected. Save data in SD card instead?</string>
+    <string name="cam_strings_common_error_open_txt" tools:ignore="MissingTranslation">Cannot open %1$s</string>
+    <string name="cam_strings_common_error_sdcard_full_txt" tools:ignore="MissingTranslation">SD card full. Save data in internal storage instead?</string>
+    <string name="cam_strings_common_error_sdcard_unavailable_txt" tools:ignore="MissingTranslation">Cannot use SD card. Save data in internal storage instead?</string>
+    <string name="cam_strings_common_explanatory_sdcard_setting_txt" tools:ignore="MissingTranslation">For stable capturing or recording, we recommend you change data storage to internal storage or use a high-speed SD card (Class 10 or higher recommended).</string>
+    <string name="cam_strings_cooling_mode_cooled_down_txt" tools:ignore="MissingTranslation">Some functions have been disabled</string>
+    <string name="cam_strings_cooling_mode_learn_more_txt" tools:ignore="MissingTranslation">Read more</string>
+    <string name="cam_strings_cooling_mode_message1_txt" tools:ignore="MissingTranslation">The following functions are currently disabled.</string>
+    <string name="cam_strings_cooling_mode_message2_txt" tools:ignore="MissingTranslation">Please wait for your device to cool down and then restart the camera.</string>
+    <string name="cam_strings_cooling_mode_title_txt" tools:ignore="MissingTranslation">The following functions are disabled</string>
+    <string name="cam_strings_cooling_mode_txt" tools:ignore="MissingTranslation">Some functions disabled by temperature rise</string>
+    <string name="cam_strings_core_intelligentactive_txt" tools:ignore="MissingTranslation">Intelligent active</string>
+    <string name="cam_strings_cta_description_txt" tools:ignore="MissingTranslation">Allow below access request?</string>
+    <string name="cam_strings_cta_title_txt" tools:ignore="MissingTranslation">Note</string>
+    <string name="cam_strings_dependency_changed_txt" tools:ignore="MissingTranslation">%1$s was changed to %2$s</string>
+    <string name="cam_strings_description_4k2k_txt" tools:ignore="MissingTranslation">Record video in 4K ultra high definition</string>
+    <string name="cam_strings_description_camera_txt" tools:ignore="MissingTranslation">Take photos and videos</string>
+    <string name="cam_strings_description_creative_effect_txt" tools:ignore="MissingTranslation">Select effects for artistic photos and videos</string>
+    <string name="cam_strings_description_dualrec_txt" tools:ignore="MissingTranslation">Put your face in photos and videos using the front &amp; main cameras</string>
+    <string name="cam_strings_description_facefusion_txt" tools:ignore="MissingTranslation">Mask your face with the face of your friend to take an impressive selfie</string>
+    <string name="cam_strings_description_google_lens_txt" tools:ignore="MissingTranslation">You can get more details or take action on what you see using %1$s</string>
+    <string name="cam_strings_description_high_frame_rate_txt" tools:ignore="MissingTranslation">Record high frame rate video and apply slow motion effects</string>
+    <string name="cam_strings_description_multicam_txt" tools:ignore="MissingTranslation">Record the same scene from multiple angles on a single screen</string>
+    <string name="cam_strings_description_shoundphoto_txt" tools:ignore="MissingTranslation">Take photos with background sound (birds chirping, etc.)</string>
+    <string name="cam_strings_description_timeshift_short_txt" tools:ignore="MissingTranslation">Find the best in the burst photos taken before and after your shot</string>
+    <string name="cam_strings_dialog_battery_level_low_info_txt" tools:ignore="MissingTranslation">Not enough battery on the phone. When the battery is low, the camera will close automatically.</string>
+    <string name="cam_strings_dialog_battery_level_low_recording_txt" tools:ignore="MissingTranslation">Recording stopped due to low battery. Charge your device and try again.</string>
+    <string name="cam_strings_dialog_battery_level_low_using_txt" tools:ignore="MissingTranslation">Cannot use camera due to low battery. Charge your device and try again.</string>
+    <string name="cam_strings_dialog_burst_information_txt" tools:ignore="MissingTranslation">To take continuous shots, select Timeshift burst in Camera apps</string>
+    <string name="cam_strings_dialog_change_resolution_manual_txt" tools:ignore="MissingTranslation">Manual (Front camera)</string>
+    <string name="cam_strings_dialog_change_resolution_superior_auto_txt" tools:ignore="MissingTranslation">Superior auto (Front camera)</string>
+    <string name="cam_strings_dialog_change_resolution_txt" tools:ignore="MissingTranslation">Resolution for the following capturing modes have been changed to 13MP (4:3) due to a Software update</string>
+    <string name="cam_strings_dialog_cta_access_txt" tools:ignore="MissingTranslation">%1$s tries to</string>
+    <string name="cam_strings_dialog_cta_allow_txt" tools:ignore="MissingTranslation">Allow</string>
+    <string name="cam_strings_dialog_cta_deny_txt" tools:ignore="MissingTranslation">Deny</string>
+    <string name="cam_strings_dialog_cta_location_info_txt" tools:ignore="MissingTranslation">Retrieve location info</string>
+    <string name="cam_strings_dialog_cta_turn_on_nfc_txt" tools:ignore="MissingTranslation">Turn on NFC</string>
+    <string name="cam_strings_dialog_cta_turn_on_wifi_txt" tools:ignore="MissingTranslation">Turn on Wi-Fi</string>
+    <string name="cam_strings_dialog_cta_wifi_mobile_data_txt" tools:ignore="MissingTranslation">Use Wi-Fi &amp; mobile data</string>
+    <string name="cam_strings_dialog_high_temp_title_txt" tools:ignore="MissingTranslation">Note</string>
+    <string name="cam_strings_dialog_high_temp_txt" tools:ignore="MissingTranslation">If the device temperature rises, the app may close during use. Your recording will be saved automatically.</string>
+    <string name="cam_strings_dialog_high_temp_vzw_txt" tools:ignore="MissingTranslation">"This camera mode uses a lot of your phone's resources and may cause your phone's temperature to rise. To prevent overheating, video recording may stop and the camera app may close. Your recording will be saved automatically."</string>
+    <string name="cam_strings_dialog_storage_full_burst_txt" tools:ignore="MissingTranslation">Burst capturing stopped due to out of memory. Delete some files to free some space on the internal storage.</string>
+    <string name="cam_strings_dialog_video_hdr_hlg_supported_txt" tools:ignore="MissingTranslation">You can record videos even in high contrast scene, and make them more dramatic and closer to what you see in real life. Please use supported devices/services to enjoy the content with its original color and brightness.</string>
+    <string name="cam_strings_distortion_correction_photo_video_txt" tools:ignore="MissingTranslation">Correction for distortion</string>
+    <string name="cam_strings_distortion_correction_txt" tools:ignore="MissingTranslation">Correction for image distortion</string>
+    <string name="cam_strings_do_not_show_again_txt" tools:ignore="MissingTranslation">Do not show again</string>
+    <string name="cam_strings_downloadable_tab_txt" tools:ignore="MissingTranslation">DOWNLOADABLE</string>
+    <string name="cam_strings_effect_Kaleidoscope_txt" tools:ignore="MissingTranslation">Kaleidoscope</string>
+    <string name="cam_strings_effect_after_image_txt" tools:ignore="MissingTranslation">Motion trail</string>
+    <string name="cam_strings_effect_brightness_contrast_txt" tools:ignore="MissingTranslation">Brightness-Contrast</string>
+    <string name="cam_strings_effect_color_filter_tint_txt" tools:ignore="MissingTranslation">Tint</string>
+    <string name="cam_strings_effect_color_pencil_txt" tools:ignore="MissingTranslation">Color sketch</string>
+    <string name="cam_strings_effect_comic_txt" tools:ignore="MissingTranslation">Comic</string>
+    <string name="cam_strings_effect_fish_eye_txt" tools:ignore="MissingTranslation">Fisheye</string>
+    <string name="cam_strings_effect_harris_shutter_txt" tools:ignore="MissingTranslation">Harris Shutter</string>
+    <string name="cam_strings_effect_hue_saturation_txt" tools:ignore="MissingTranslation">Hue-Saturation</string>
+    <string name="cam_strings_effect_miniature_txt" tools:ignore="MissingTranslation">Miniature</string>
+    <string name="cam_strings_effect_mirror_txt" tools:ignore="MissingTranslation">Mirror</string>
+    <string name="cam_strings_effect_mosaic_txt" tools:ignore="MissingTranslation">Mosaic</string>
+    <string name="cam_strings_effect_motion_effects_txt" tools:ignore="MissingTranslation">Motion effects</string>
+    <string name="cam_strings_effect_no_effect_txt" tools:ignore="MissingTranslation">Normal</string>
+    <string name="cam_strings_effect_nostalgia_txt" tools:ignore="MissingTranslation">Nostalgic</string>
+    <string name="cam_strings_effect_old_film_txt" tools:ignore="MissingTranslation">Old Film</string>
+    <string name="cam_strings_effect_partical_color_txt" tools:ignore="MissingTranslation">Partial color</string>
+    <string name="cam_strings_effect_pencil_txt" tools:ignore="MissingTranslation">Pencil sketch</string>
+    <string name="cam_strings_effect_selector_txt" tools:ignore="MissingTranslation">Dual camera effect</string>
+    <string name="cam_strings_effect_vivid_txt" tools:ignore="MissingTranslation">Vivid</string>
+    <string name="cam_strings_error_capture_txt" tools:ignore="MissingTranslation">This mode is unavailable when recording is in progress in another app.</string>
+    <string name="cam_strings_error_device_not_available_txt" tools:ignore="MissingTranslation">Cannot start camera. Restart camera or device.</string>
+    <string name="cam_strings_error_dialog_title_txt" tools:ignore="MissingTranslation">Error</string>
+    <string name="cam_strings_error_fatal_sd_photo_txt" tools:ignore="MissingTranslation">Could not save photos. There may be a problem with the data storage. If Data storage is set to SD card, check your SD card.</string>
+    <string name="cam_strings_error_fatal_sd_video_txt" tools:ignore="MissingTranslation">Could not start recording. There may be a problem with the data storage. If Data storage is set to SD card, check your SD card.</string>
+    <string name="cam_strings_error_fatal_txt" tools:ignore="MissingTranslation">Unknown error.</string>
+    <string name="cam_strings_error_high_temp_already_high_txt" tools:ignore="MissingTranslation">Your Xperia needs to cool down. Please wait.</string>
+    <string name="cam_strings_error_high_temp_info_txt" tools:ignore="MissingTranslation">The device temperature is rising. If it continues to rise, the app will close automatically.</string>
+    <string name="cam_strings_error_high_temp_info_vzw_txt" tools:ignore="MissingTranslation">Your camera will need to cool. If you are recording, we may need to automatically save your video and exit until the camera has cooled.</string>
+    <string name="cam_strings_error_high_temp_shut_down_no_txt" tools:ignore="MissingTranslation">No</string>
+    <string name="cam_strings_error_high_temp_shut_down_yes_txt" tools:ignore="MissingTranslation">Yes</string>
+    <string name="cam_strings_error_high_temp_shutting_down_txt" tools:ignore="MissingTranslation">Camera will now turn off temporarily to cool down.</string>
+    <string name="cam_strings_error_high_temp_shutting_down_vzw_txt" tools:ignore="MissingTranslation">Your camera needs to cool. Your recording will be saved and application exited until your device is properly cooled.</string>
+    <string name="cam_strings_error_internal_memory_full_txt" tools:ignore="MissingTranslation">Internal memory full. Changed default data storage to SD card.</string>
+    <string name="cam_strings_error_internal_memory_unavailable_txt" tools:ignore="MissingTranslation">Internal storage is corrupt or write protected. Data storage changed to SD card.</string>
+    <string name="cam_strings_error_internal_sd_full_txt" tools:ignore="MissingTranslation">Memory full. Delete some files from SD card or Internal storage.</string>
+    <string name="cam_strings_error_max_faces_exceeded_txt" tools:ignore="MissingTranslation">Maximum number of faces has been selected. Please deselect one or more faces and try again.</string>
+    <string name="cam_strings_error_memory_full_txt" tools:ignore="MissingTranslation">Memory full. Delete some files from SD card.</string>
+    <string name="cam_strings_error_memory_ims_access_error_txt" tools:ignore="MissingTranslation">Memory error</string>
+    <string name="cam_strings_error_memory_ims_full_txt" tools:ignore="MissingTranslation">Memory full. Delete some files from the memory or change the default data storage.</string>
+    <string name="cam_strings_error_memory_ims_unavailable_txt" tools:ignore="MissingTranslation">Memory unavailable</string>
+    <string name="cam_strings_error_memory_title_txt" tools:ignore="MissingTranslation">Memory error</string>
+    <string name="cam_strings_error_memory_unavailable_txt" tools:ignore="MissingTranslation">SD card unavailable</string>
+    <string name="cam_strings_error_message_during_voice_call_title_txt" tools:ignore="MissingTranslation">Call in progress</string>
+    <string name="cam_strings_error_message_during_voice_call_txt" tools:ignore="MissingTranslation">Camera unavailable during a call</string>
+    <string name="cam_strings_error_mms_rec_size_limit_txt" tools:ignore="MissingTranslation">Cannot add more files. File size too large.</string>
+    <string name="cam_strings_error_save_file_in_progress_txt" tools:ignore="MissingTranslation">Saving. Action currently unavailable.</string>
+    <string name="cam_strings_error_save_file_txt" tools:ignore="MissingTranslation">"Recording in progress in another app. Couldn't record."</string>
+    <string name="cam_strings_error_storage_changing_to_internal_txt" tools:ignore="MissingTranslation">No SD card available. Changed default data storage to Internal storage.</string>
+    <string name="cam_strings_error_video_rec_txt" tools:ignore="MissingTranslation">Cannot record. Recording or a recording-related function may be in use by another application.</string>
+    <string name="cam_strings_exposure_level_m03_txt" tools:ignore="MissingTranslation">EV -0.3</string>
+    <string name="cam_strings_exposure_level_m07_txt" tools:ignore="MissingTranslation">EV -0.7</string>
+    <string name="cam_strings_exposure_level_m10_txt" tools:ignore="MissingTranslation">EV -1.0</string>
+    <string name="cam_strings_exposure_level_m13_txt" tools:ignore="MissingTranslation">EV -1.3</string>
+    <string name="cam_strings_exposure_level_m17_txt" tools:ignore="MissingTranslation">EV -1.7</string>
+    <string name="cam_strings_exposure_level_m20_txt" tools:ignore="MissingTranslation">EV -2.0</string>
+    <string name="cam_strings_exposure_level_p03_txt" tools:ignore="MissingTranslation">EV +0.3</string>
+    <string name="cam_strings_exposure_level_p07_txt" tools:ignore="MissingTranslation">EV +0.7</string>
+    <string name="cam_strings_exposure_level_p10_txt" tools:ignore="MissingTranslation">EV +1.0</string>
+    <string name="cam_strings_exposure_level_p13_txt" tools:ignore="MissingTranslation">EV +1.3</string>
+    <string name="cam_strings_exposure_level_p17_txt" tools:ignore="MissingTranslation">EV +1.7</string>
+    <string name="cam_strings_exposure_level_p20_txt" tools:ignore="MissingTranslation">EV +2.0</string>
+    <string name="cam_strings_exposure_level_pm0_txt" tools:ignore="MissingTranslation">EV ±0.0</string>
+    <string name="cam_strings_exposure_level_title_txt" tools:ignore="MissingTranslation">Exposure value</string>
+    <string name="cam_strings_exposure_level_txt" tools:ignore="MissingTranslation">Exposure value</string>
+    <string name="cam_strings_eye_position_tutorial_title_txt" tools:ignore="MissingTranslation">Eye direction</string>
+    <string name="cam_strings_eye_position_tutorial_txt" tools:ignore="MissingTranslation">Keep your eyes on the front camera near the ear speaker</string>
+    <string name="cam_strings_facefusion_add_face_txt" tools:ignore="MissingTranslation">Add face</string>
+    <string name="cam_strings_facefusion_delete_mask_txt" tools:ignore="MissingTranslation">Delete this face? This action cannot be reversed.</string>
+    <string name="cam_strings_facefusion_no_face_detected_txt" tools:ignore="MissingTranslation">No faces detected</string>
+    <string name="cam_strings_facefusion_point_at_face_txt" tools:ignore="MissingTranslation">Please point the camera towards a face</string>
+    <string name="cam_strings_facefusion_select_face_txt" tools:ignore="MissingTranslation">Tap the square(s) to select face(s)</string>
+    <string name="cam_strings_fast_capturing_launch_and_capture_photo_txt" tools:ignore="MissingTranslation">Launch and capture</string>
+    <string name="cam_strings_fast_capturing_launch_and_capture_video_txt" tools:ignore="MissingTranslation">Launch and record video</string>
+    <string name="cam_strings_fast_capturing_launch_only_txt" tools:ignore="MissingTranslation">Launch only</string>
+    <string name="cam_strings_fast_capturing_launch_only_video_txt" tools:ignore="MissingTranslation">Launch only (video camera)</string>
+    <string name="cam_strings_fast_capturing_screen_locked_apps_list_txt" tools:ignore="MissingTranslation">To change the capturing mode, unlock the screen. Unlock?</string>
+    <string name="cam_strings_fast_capturing_screen_locked_settings_txt" tools:ignore="MissingTranslation">To open the settings, unlock the screen.</string>
+    <string name="cam_strings_fast_capturing_screen_locked_title_txt" tools:ignore="MissingTranslation">Screen locked</string>
+    <string name="cam_strings_fast_capturing_title_txt" tools:ignore="MissingTranslation">Quick launch</string>
+    <string name="cam_strings_fast_capturing_txt" tools:ignore="MissingTranslation">Quick launch</string>
+    <string name="cam_strings_fast_switch_mode_camera_wizard_title_txt" tools:ignore="MissingTranslation">Switch capturing mode and camera</string>
+    <string name="cam_strings_fast_switch_mode_camera_wizard_txt" tools:ignore="MissingTranslation">Swipe the screen to switch to another capturing mode such as Video or Manual, and switch between the main and front camera.</string>
+    <string name="cam_strings_fast_switch_tutorial_title_txt" tools:ignore="MissingTranslation">Switch camera</string>
+    <string name="cam_strings_fast_switch_tutorial_txt" tools:ignore="MissingTranslation">You can switch between the main and front cameras by swiping the screen</string>
+    <string name="cam_strings_file_delete_confirm_title_txt" tools:ignore="MissingTranslation">Delete</string>
+    <string name="cam_strings_file_delete_confirm_txt" tools:ignore="MissingTranslation">Delete this file?</string>
+    <string name="cam_strings_file_share_title_txt" tools:ignore="MissingTranslation">Share</string>
+    <string name="cam_strings_flash_fill_flash_txt" tools:ignore="MissingTranslation">Fill flash</string>
+    <string name="cam_strings_flash_night_portrait_hint_txt" tools:ignore="MissingTranslation">Make sure to hold your device still</string>
+    <string name="cam_strings_flash_night_portrait_txt" tools:ignore="MissingTranslation">Night portrait flash</string>
+    <string name="cam_strings_flash_red_eye_reduc_txt" tools:ignore="MissingTranslation">Red-eye reduction</string>
+    <string name="cam_strings_flash_title_txt" tools:ignore="MissingTranslation">Flash</string>
+    <string name="cam_strings_flash_torch_txt" tools:ignore="MissingTranslation">Flashlight</string>
+    <string name="cam_strings_flash_txt" tools:ignore="MissingTranslation">Flash</string>
+    <string name="cam_strings_focus_mode_face_detection_txt" tools:ignore="MissingTranslation">Face detection</string>
+    <string name="cam_strings_focus_mode_infinity_txt" tools:ignore="MissingTranslation">Infinity</string>
+    <string name="cam_strings_focus_mode_macro_txt" tools:ignore="MissingTranslation">Macro</string>
+    <string name="cam_strings_focus_mode_multi_af_txt" tools:ignore="MissingTranslation">Multi autofocus</string>
+    <string name="cam_strings_focus_mode_object_tracking_txt" tools:ignore="MissingTranslation">Object tracking</string>
+    <string name="cam_strings_focus_mode_single_af_txt" tools:ignore="MissingTranslation">Single autofocus</string>
+    <string name="cam_strings_focus_mode_title_txt" tools:ignore="MissingTranslation">Focus mode</string>
+    <string name="cam_strings_focus_mode_touch_focus_txt" tools:ignore="MissingTranslation">Touch focus</string>
+    <string name="cam_strings_focus_mode_txt" tools:ignore="MissingTranslation">Focus mode</string>
+    <string name="cam_strings_front_cam_location_guide_txt" tools:ignore="MissingTranslation">Camera lens located as shown in illustration</string>
+    <string name="cam_strings_fusion_error_too_close_txt" tools:ignore="MissingTranslation">Move farther away from the object</string>
+    <string name="cam_strings_fusion_on_txt" tools:ignore="MissingTranslation">Ultra-high sensitivity</string>
+    <string name="cam_strings_fusion_setting_txt" tools:ignore="MissingTranslation">Dual camera switch</string>
+    <string name="cam_strings_geotagging_title_txt" tools:ignore="MissingTranslation">Save location</string>
+    <string name="cam_strings_geotagging_txt" tools:ignore="MissingTranslation">Save location</string>
+    <string name="cam_strings_get_more_modes_txt" tools:ignore="MissingTranslation">Apps</string>
+    <string name="cam_strings_global_setting_softskin_available_applications_txt" tools:ignore="MissingTranslation">Available applications</string>
+    <string name="cam_strings_global_setting_softskin_brighten_skin_txt" tools:ignore="MissingTranslation">Bright skin</string>
+    <string name="cam_strings_global_setting_softskin_detail_txt" tools:ignore="MissingTranslation">Make your skin look bright and smooth. The effect works in the applications that use the front camera. This can be applied on photos and videos. You can also adjust the level.</string>
+    <string name="cam_strings_global_setting_softskin_level_adjustment_txt" tools:ignore="MissingTranslation">Level adjustment</string>
+    <string name="cam_strings_global_setting_softskin_smoothen_skin_txt" tools:ignore="MissingTranslation">Smooth skin</string>
+    <string name="cam_strings_google_lens_error_dialog_txt" tools:ignore="MissingTranslation">"Cannot start app.
+Make sure the latest version of %1$s is installed and enabled on your device."</string>
+    <string name="cam_strings_gridline_txt" tools:ignore="MissingTranslation">Grid lines</string>
+    <string name="cam_strings_hand_shutter_hint_detail_txt" tools:ignore="MissingTranslation">Turn your palm toward the camera. Self-timer will be turned on when your palm is recognized. To make it easy to be recognized, extend your fingers upward.</string>
+    <string name="cam_strings_hand_shutter_hint_txt" tools:ignore="MissingTranslation">Turn your palm toward the camera</string>
+    <string name="cam_strings_hand_shutter_txt" tools:ignore="MissingTranslation">Hand Shutter</string>
+    <string name="cam_strings_hdr_guide_txt" tools:ignore="MissingTranslation">Because Still HDR captures and combines two images of the same scene, it is only suitable for still objects.</string>
+    <string name="cam_strings_hdr_title_txt" tools:ignore="MissingTranslation">HDR</string>
+    <string name="cam_strings_hdr_txt" tools:ignore="MissingTranslation">HDR</string>
+    <string name="cam_strings_help_txt" tools:ignore="MissingTranslation">Help</string>
+    <string name="cam_strings_iburst_feedback_txt" tools:ignore="MissingTranslation">Predicted</string>
+    <string name="cam_strings_image_quality_control_button_cancel_txt" tools:ignore="MissingTranslation">Cancel</string>
+    <string name="cam_strings_image_quality_control_button_clear_txt" tools:ignore="MissingTranslation">Clear</string>
+    <string name="cam_strings_image_quality_control_button_reset_txt" tools:ignore="MissingTranslation">Reset</string>
+    <string name="cam_strings_image_quality_control_tab_focus_txt" tools:ignore="MissingTranslation">Focus</string>
+    <string name="cam_strings_image_size_txt" tools:ignore="MissingTranslation">Still image size</string>
+    <string name="cam_strings_image_stabilizer_title_txt" tools:ignore="MissingTranslation">Image stabilizer</string>
+    <string name="cam_strings_image_stabilizer_txt" tools:ignore="MissingTranslation">Image stabilizer</string>
+    <string name="cam_strings_intelligent_burst_txt" tools:ignore="MissingTranslation">Predictive Capture</string>
+    <string name="cam_strings_iso_changed_txt" tools:ignore="MissingTranslation">ISO value has also been changed</string>
+    <string name="cam_strings_launch_with_camera_key_txt" tools:ignore="MissingTranslation">Launch with camera key</string>
+    <string name="cam_strings_lens_correction_for_photo_txt" tools:ignore="MissingTranslation">Lens correction (photo)</string>
+    <string name="cam_strings_lens_correction_off_txt" tools:ignore="MissingTranslation">Image quality</string>
+    <string name="cam_strings_lens_correction_on_txt" tools:ignore="MissingTranslation">Correction for distortion</string>
+    <string name="cam_strings_lens_correction_txt" tools:ignore="MissingTranslation">Lens correction</string>
+    <string name="cam_strings_long_press_burst_best_txt" tools:ignore="MissingTranslation">Standard</string>
+    <string name="cam_strings_long_press_burst_high_txt" tools:ignore="MissingTranslation">High speed</string>
+    <string name="cam_strings_long_press_burst_txt" tools:ignore="MissingTranslation">Burst with long press</string>
+    <string name="cam_strings_manual_fusion_tutorial_2_title_txt" tools:ignore="MissingTranslation">Taking photos with dual camera</string>
+    <string name="cam_strings_manual_fusion_tutorial_2_txt" tools:ignore="MissingTranslation">Stay at least 1 meter away from the object when taking photos with dual camera on. Getting close to the object may cause a shift of the viewpoint or color.</string>
+    <string name="cam_strings_manual_fusion_tutorial_title_txt" tools:ignore="MissingTranslation">Switch dual camera</string>
+    <string name="cam_strings_manual_fusion_tutorial_txt" tools:ignore="MissingTranslation">You can turn dual camera on and off in manual mode. Turn it on to take low-noise photos in low light conditions. Turn it off to take close-up photos.</string>
+    <string name="cam_strings_max_file_size_save_failed_txt" tools:ignore="MissingTranslation">Recording stopped due to maximum file size limitation or not enough space on SD card</string>
+    <string name="cam_strings_max_recording_time_save_failed_txt" tools:ignore="MissingTranslation">Recording stopped due to maximum recording time limitation</string>
+    <string name="cam_strings_memory_full_save_failed_txt" tools:ignore="MissingTranslation">Could not save. Memory full.</string>
+    <string name="cam_strings_memory_full_zoom_not_supported_txt" tools:ignore="MissingTranslation">Memory full. Zoom is currently not available.</string>
+    <string name="cam_strings_metering_multi_cy_txt" tools:ignore="MissingTranslation">Multi</string>
+    <string name="cam_strings_microphone_title_txt" tools:ignore="MissingTranslation">Microphone</string>
+    <string name="cam_strings_modeselector_addon_installed_txt" tools:ignore="MissingTranslation">Installed</string>
+    <string name="cam_strings_monochrome_photo_txt" tools:ignore="MissingTranslation">Monochrome photo</string>
+    <string name="cam_strings_monochrome_title_txt" tools:ignore="MissingTranslation">Monochrome</string>
+    <string name="cam_strings_monochrome_video_txt" tools:ignore="MissingTranslation">Monochrome video</string>
+    <string name="cam_strings_more_common_setting_title_txt" tools:ignore="MissingTranslation">Common settings</string>
+    <string name="cam_strings_more_txt" tools:ignore="MissingTranslation">More</string>
+    <string name="cam_strings_multi_window_txt" tools:ignore="MissingTranslation">Drag the middle of the split bar to switch to full screen %1$s to use</string>
+    <string name="cam_strings_multicam_add_camera_security_info_txt" tools:ignore="MissingTranslation">"Another device is now connected.
+Would you like to share the image through the viewfinder with the device?"</string>
+    <string name="cam_strings_multicam_add_device_txt" tools:ignore="MissingTranslation">Add device</string>
+    <string name="cam_strings_multicam_add_more_txt" tools:ignore="MissingTranslation">Add more</string>
+    <string name="cam_strings_multicam_apply_txt" tools:ignore="MissingTranslation">Done</string>
+    <string name="cam_strings_multicam_connection_failure_dialog_txt" tools:ignore="MissingTranslation">Could not connect</string>
+    <string name="cam_strings_multicam_di_connection_err_dialog_txt" tools:ignore="MissingTranslation">"Cannot connect with any Sony's Wi-Fi/NFC camera when your Xperia is connected with another Xperia."</string>
+    <string name="cam_strings_multicam_error_app_ver_old_txt" tools:ignore="MissingTranslation">"App version doesn't match. Cannot connect. Your app needs to be updated."</string>
+    <string name="cam_strings_multicam_error_disconnect_txt" tools:ignore="MissingTranslation">Disconnected</string>
+    <string name="cam_strings_multicam_error_nfc_txt" tools:ignore="MissingTranslation">Cannot start with NFC locked.</string>
+    <string name="cam_strings_multicam_error_wifi_txt" tools:ignore="MissingTranslation">This mode is unavailable during Wi-Fi tethering.</string>
+    <string name="cam_strings_multicam_excess_connection_num_err_dialog_txt" tools:ignore="MissingTranslation">Max number of devices added.</string>
+    <string name="cam_strings_multicam_excess_di_connection_num_err_dialog_txt" tools:ignore="MissingTranslation">"Only one Sony's Wi-Fi/NFC camera can be connected with your Xperia at a time."</string>
+    <string name="cam_strings_multicam_nfc_connect_title_txt" tools:ignore="MissingTranslation">Touch the devices together to connect</string>
+    <string name="cam_strings_multicam_nfc_connect_wifi_camera_txt" tools:ignore="MissingTranslation">"Sony's Wi-Fi/NFC camera"</string>
+    <string name="cam_strings_multicam_nfc_connect_xperia_txt" tools:ignore="MissingTranslation">Xperia</string>
+    <string name="cam_strings_multicam_nfc_touch_to_beam_title_txt" tools:ignore="MissingTranslation">Touch the screen</string>
+    <string name="cam_strings_multicam_security_info_txt" tools:ignore="MissingTranslation">If the device that you connect with is also connected with other Xperia devices through this app, your Xperia will be also automatically connected to those devices and every image through the viewfinder will be shared between your Xperia and all the connected devices.</string>
+    <string name="cam_strings_multicam_touch_add_camera_desc_txt" tools:ignore="MissingTranslation">Tap to add a device. The image through its viewfinder will appear here.</string>
+    <string name="cam_strings_multicam_xperia_connection_err_dialog_txt" tools:ignore="MissingTranslation">"Cannot connect with any Xperia when your Xperia is connected with a Sony's Wi-Fi/NFC camera."</string>
+    <string name="cam_strings_ok_txt" tools:ignore="MissingTranslation">OK</string>
+    <string name="cam_strings_permgroupdesc_thermalmitigation_message_txt" tools:ignore="MissingTranslation">Allow the app to control the system for stable capturing, depending on the temperature in the device.</string>
+    <string name="cam_strings_permgrouplab_thermalmitigation_txt" tools:ignore="MissingTranslation">control the system</string>
+    <string name="cam_strings_photo_autoreview_txt" tools:ignore="MissingTranslation">Auto photo preview</string>
+    <string name="cam_strings_photometry_average_txt" tools:ignore="MissingTranslation">Average</string>
+    <string name="cam_strings_photometry_center_txt" tools:ignore="MissingTranslation">Center</string>
+    <string name="cam_strings_photometry_face_txt" tools:ignore="MissingTranslation">Face</string>
+    <string name="cam_strings_photometry_spot_txt" tools:ignore="MissingTranslation">Spot</string>
+    <string name="cam_strings_photometry_title_txt" tools:ignore="MissingTranslation">Metering</string>
+    <string name="cam_strings_photometry_touch_txt" tools:ignore="MissingTranslation">Touch</string>
+    <string name="cam_strings_photometry_txt" tools:ignore="MissingTranslation">Metering</string>
+    <string name="cam_strings_predictive_capture_feedback_txt" tools:ignore="MissingTranslation">Predicted</string>
+    <string name="cam_strings_predictive_capture_txt" tools:ignore="MissingTranslation">Predictive Capture</string>
+    <string name="cam_strings_predictive_launch_dialog_guide_txt" tools:ignore="MissingTranslation">"The camera has been launched automatically by detecting your motion of lifting up your phone in landscape mode and aiming it towards an object.
+You can select your favorite way to use this feature from Smart launch in camera settings."</string>
+    <string name="cam_strings_predictive_launch_guide_2_txt" tools:ignore="MissingTranslation">Touch inside the circle to capture</string>
+    <string name="cam_strings_predictive_launch_guide_3_txt" tools:ignore="MissingTranslation">Touch screen to capture</string>
+    <string name="cam_strings_predictive_launch_guide_circle_txt" tools:ignore="MissingTranslation">Tap inside of the circle to view fullscreen</string>
+    <string name="cam_strings_predictive_launch_guide_txt" tools:ignore="MissingTranslation">Touch inside of the circle to launch camera</string>
+    <string name="cam_strings_predictive_launch_launch_and_capture_txt" tools:ignore="MissingTranslation">Touch to launch and capture</string>
+    <string name="cam_strings_predictive_launch_launch_only_txt" tools:ignore="MissingTranslation">Touch to launch</string>
+    <string name="cam_strings_predictive_launch_tutorial_2_txt" tools:ignore="MissingTranslation">"You can launch the camera quickly. Swiftly lift your device in landscape mode and aim the camera towards an object. The camera will be launched automatically.
+You can select your favorite way to use this feature from Smart launch in camera settings."</string>
+    <string name="cam_strings_predictive_launch_tutorial_title_txt" tools:ignore="MissingTranslation">Smart launch</string>
+    <string name="cam_strings_predictive_launch_tutorial_txt" tools:ignore="MissingTranslation">"You can launch the camera quickly. Swing up your device in landscape mode and aim the camera towards an object. The camera will be launched automatically.
+You can turn off this feature from Smart launch in camera settings."</string>
+    <string name="cam_strings_predictive_launch_txt" tools:ignore="MissingTranslation">Smart launch</string>
+    <string name="cam_strings_preview_always_txt" tools:ignore="MissingTranslation">On</string>
+    <string name="cam_strings_preview_duration_3sec_txt" tools:ignore="MissingTranslation">3 seconds</string>
+    <string name="cam_strings_preview_duration_5sec_txt" tools:ignore="MissingTranslation">5 seconds</string>
+    <string name="cam_strings_preview_duration_title_txt" tools:ignore="MissingTranslation">Preview</string>
+    <string name="cam_strings_preview_duration_txt" tools:ignore="MissingTranslation">Preview</string>
+    <string name="cam_strings_preview_duration_unlimited_txt" tools:ignore="MissingTranslation">Unlimited</string>
+    <string name="cam_strings_preview_edit_txt" tools:ignore="MissingTranslation">Edit</string>
+    <string name="cam_strings_preview_only_front_txt" tools:ignore="MissingTranslation">Only front camera</string>
+    <string name="cam_strings_previous_txt" tools:ignore="MissingTranslation">Previous</string>
+    <string name="cam_strings_recording_txt" tools:ignore="MissingTranslation">REC</string>
+    <string name="cam_strings_remember_geotag_title_txt" tools:ignore="MissingTranslation">Save location?</string>
+    <string name="cam_strings_remember_geotag_txt" tools:ignore="MissingTranslation">Tag your photos and videos with the locations where they are taken. You can change this setting later from Save location in the Camera settings.</string>
+    <string name="cam_strings_remote_touch_to_start_txt" tools:ignore="MissingTranslation">Tap to start</string>
+    <string name="cam_strings_reset_color_brightness_txt" tools:ignore="MissingTranslation">Reset color and brightness</string>
+    <string name="cam_strings_reset_settings_confirm_title_txt" tools:ignore="MissingTranslation">Reset camera settings to default?</string>
+    <string name="cam_strings_reset_settings_txt" tools:ignore="MissingTranslation">Reset settings</string>
+    <string name="cam_strings_reset_txt" tools:ignore="MissingTranslation">Reset</string>
+    <string name="cam_strings_resolution_title_txt" tools:ignore="MissingTranslation">Resolution</string>
+    <string name="cam_strings_resolution_txt" tools:ignore="MissingTranslation">Resolution</string>
+    <string name="cam_strings_restricted_mf_touchfocus_txt" tools:ignore="MissingTranslation">To use touch focus, change focus setting to AF</string>
+    <string name="cam_strings_restricted_setting_dialog_title_txt" tools:ignore="MissingTranslation">Cannot change</string>
+    <string name="cam_strings_restricted_setting_photo_resolution_or_scene_txt" tools:ignore="MissingTranslation">This setting is not supported for the current resolution or scene. To configure this setting, change resolution or scene selection.</string>
+    <string name="cam_strings_restricted_setting_photo_resolution_txt" tools:ignore="MissingTranslation">This setting does not support the current still image size. To configure this setting, change the still image size.</string>
+    <string name="cam_strings_restricted_setting_scene_txt" tools:ignore="MissingTranslation">This setting is not supported for the current scene. To configure this setting, change scene selection.</string>
+    <string name="cam_strings_restricted_setting_slow_motion_txt" tools:ignore="MissingTranslation">Unable to change video size in slow motion mode. To configure this setting, exit slow motion mode.</string>
+    <string name="cam_strings_restricted_setting_video_hdr_hlg_txt" tools:ignore="MissingTranslation">This setting is not available with HDR On. To configure this, turn off HDR.</string>
+    <string name="cam_strings_restricted_setting_video_resolution_or_scene_txt" tools:ignore="MissingTranslation">This setting is not supported for the current video resolution or scene. To configure this setting, change video resolution or scene selection.</string>
+    <string name="cam_strings_restricted_setting_video_resolution_txt" tools:ignore="MissingTranslation">This setting is not supported for the current video size. To configure this setting, change video size.</string>
+    <string name="cam_strings_runtime_permission_continue_button_txt" tools:ignore="MissingTranslation">APP INFO</string>
+    <string name="cam_strings_runtime_permission_dialog1_message_txt" tools:ignore="MissingTranslation">%1$s requires the following permission(s)</string>
+    <string name="cam_strings_runtime_permission_dialog1_title_txt" tools:ignore="MissingTranslation">%1$s permission</string>
+    <string name="cam_strings_runtime_permission_dialog2_message1_txt" tools:ignore="MissingTranslation">The app requires the following permission(s) to perform this action.</string>
+    <string name="cam_strings_runtime_permission_dialog2_message2_txt" tools:ignore="MissingTranslation">To grant permissions, go to App info > Permissions.</string>
+    <string name="cam_strings_runtime_permission_dialog2_title_txt" tools:ignore="MissingTranslation">Could not continue</string>
+    <string name="cam_strings_runtime_permission_rationale_camera_txt" tools:ignore="MissingTranslation">To take photos and videos</string>
+    <string name="cam_strings_runtime_permission_rationale_location_txt" tools:ignore="MissingTranslation">To retrieve location</string>
+    <string name="cam_strings_runtime_permission_rationale_microphone_txt" tools:ignore="MissingTranslation">To record sound</string>
+    <string name="cam_strings_runtime_permission_rationale_storage_txt" tools:ignore="MissingTranslation">To save photos and videos</string>
+    <string name="cam_strings_save_destination_ims_txt" tools:ignore="MissingTranslation">Internal storage</string>
+    <string name="cam_strings_save_destination_sd_txt" tools:ignore="MissingTranslation">SD card</string>
+    <string name="cam_strings_save_destination_title_txt" tools:ignore="MissingTranslation">Data storage</string>
+    <string name="cam_strings_save_destination_txt" tools:ignore="MissingTranslation">Data storage</string>
+    <string name="cam_strings_saving_files_txt" tools:ignore="MissingTranslation">Saving files</string>
+    <string name="cam_strings_scene_selection_title_cy_txt" tools:ignore="MissingTranslation">Scene selection</string>
+    <string name="cam_strings_scenes_anti_motion_blur_cy_txt" tools:ignore="MissingTranslation">Anti motion blur</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_portrait_cy_txt" tools:ignore="MissingTranslation">Backlight portrait</string>
+    <string name="cam_strings_scenes_auto_recog_backlight_txt" tools:ignore="MissingTranslation">Backlight</string>
+    <string name="cam_strings_scenes_auto_recog_gourmet_txt" tools:ignore="MissingTranslation">Gourmet</string>
+    <string name="cam_strings_scenes_auto_recog_infant_cy_txt" tools:ignore="MissingTranslation">Infant</string>
+    <string name="cam_strings_scenes_auto_recog_landscape_txt" tools:ignore="MissingTranslation">Landscape</string>
+    <string name="cam_strings_scenes_auto_recog_low_light_cy_txt" tools:ignore="MissingTranslation">Low light</string>
+    <string name="cam_strings_scenes_auto_recog_softsnap_cy_txt" tools:ignore="MissingTranslation">Soft snap</string>
+    <string name="cam_strings_scenes_auto_recog_spotlight_cy_txt" tools:ignore="MissingTranslation">Spotlight</string>
+    <string name="cam_strings_scenes_auto_recog_text_txt" tools:ignore="MissingTranslation">Document</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_portrait_cy_txt" tools:ignore="MissingTranslation">Night portrait</string>
+    <string name="cam_strings_scenes_auto_recog_twilight_txt" tools:ignore="MissingTranslation">Night scene</string>
+    <string name="cam_strings_scenes_backlight_hdr_cy_txt" tools:ignore="MissingTranslation">Backlight correction HDR</string>
+    <string name="cam_strings_scenes_beach_cy_txt" tools:ignore="MissingTranslation">Beach</string>
+    <string name="cam_strings_scenes_beachsnow_txt" tools:ignore="MissingTranslation">Beach and snow</string>
+    <string name="cam_strings_scenes_document_txt" tools:ignore="MissingTranslation">Document</string>
+    <string name="cam_strings_scenes_fireworks_cy_txt" tools:ignore="MissingTranslation">Fireworks</string>
+    <string name="cam_strings_scenes_gurumet_cy_txt" tools:ignore="MissingTranslation">Gourmet</string>
+    <string name="cam_strings_scenes_handheld_twilight_cy_txt" tools:ignore="MissingTranslation">Hand-held twilight</string>
+    <string name="cam_strings_scenes_high_sensitivity_cy_txt" tools:ignore="MissingTranslation">High sensitivity</string>
+    <string name="cam_strings_scenes_landscape_txt" tools:ignore="MissingTranslation">Landscape</string>
+    <string name="cam_strings_scenes_nightmode_txt" tools:ignore="MissingTranslation">Night</string>
+    <string name="cam_strings_scenes_nightportrait_cy_txt" tools:ignore="MissingTranslation">Night portrait</string>
+    <string name="cam_strings_scenes_nightscene_txt" tools:ignore="MissingTranslation">Night scene</string>
+    <string name="cam_strings_scenes_party_txt" tools:ignore="MissingTranslation">Party</string>
+    <string name="cam_strings_scenes_pet_cy_txt" tools:ignore="MissingTranslation">Pet</string>
+    <string name="cam_strings_scenes_snow_cy_txt" tools:ignore="MissingTranslation">Snow</string>
+    <string name="cam_strings_scenes_soft_skin_cy_txt" tools:ignore="MissingTranslation">Soft skin</string>
+    <string name="cam_strings_scenes_soft_snap_cy_txt" tools:ignore="MissingTranslation">Soft snap</string>
+    <string name="cam_strings_scenes_sports_txt" tools:ignore="MissingTranslation">Sports</string>
+    <string name="cam_strings_scenes_txt" tools:ignore="MissingTranslation">Scenes</string>
+    <string name="cam_strings_screen_pinned_txt" tools:ignore="MissingTranslation">Screen is pinned</string>
+    <string name="cam_strings_sd_permission_data_storage_info_txt" tools:ignore="MissingTranslation">Saved to internal storage</string>
+    <string name="cam_strings_sd_permission_dialog_continue_button_txt" tools:ignore="MissingTranslation">MOVE</string>
+    <string name="cam_strings_sd_permission_dialog_message1_txt" tools:ignore="MissingTranslation">The app requires the following permission(s) to perform this action.</string>
+    <string name="cam_strings_sd_permission_dialog_message2_txt" tools:ignore="MissingTranslation">"To use an SD card, the camera needs permissions to access the SD card.
+Change the data storage to SD card again, or allow the camera to access the SD card on the next screen."</string>
+    <string name="cam_strings_sd_permission_dialog_title_txt" tools:ignore="MissingTranslation">SD card unavailable</string>
+    <string name="cam_strings_sd_permission_info_txt" tools:ignore="MissingTranslation">"New SD card detected which requires permissions.
+Internal device storage will therefore be used as the default data storage.
+
+To use SD card as data storage, please go to camera settings and change the storage option to SD card."</string>
+    <string name="cam_strings_sd_permission_rationale_txt" tools:ignore="MissingTranslation">To save photos and videos on SD card</string>
+    <string name="cam_strings_select_picture_txt" tools:ignore="MissingTranslation">Select photo</string>
+    <string name="cam_strings_self_timer_05_txt" tools:ignore="MissingTranslation">0.5 sec.</string>
+    <string name="cam_strings_self_timer_10_txt" tools:ignore="MissingTranslation">10 sec.</string>
+    <string name="cam_strings_self_timer_2_txt" tools:ignore="MissingTranslation">2 sec.</string>
+    <string name="cam_strings_self_timer_3_txt" tools:ignore="MissingTranslation">3 sec.</string>
+    <string name="cam_strings_self_timer_front_hint_10_txt" tools:ignore="MissingTranslation">Self-timer: 10 sec.</string>
+    <string name="cam_strings_self_timer_front_hint_3_txt" tools:ignore="MissingTranslation">Self-timer: 3 sec.</string>
+    <string name="cam_strings_self_timer_front_hint_off_txt" tools:ignore="MissingTranslation">Self-timer: Off</string>
+    <string name="cam_strings_self_timer_hint_countdown_txt" tools:ignore="MissingTranslation">Keep your eyes on the camera</string>
+    <string name="cam_strings_self_timer_photo_txt" tools:ignore="MissingTranslation">Self-timer (still images)</string>
+    <string name="cam_strings_self_timer_txt" tools:ignore="MissingTranslation">Self-timer</string>
+    <string name="cam_strings_settings_auto_txt" tools:ignore="MissingTranslation">Auto</string>
+    <string name="cam_strings_settings_off_txt" tools:ignore="MissingTranslation">Off</string>
+    <string name="cam_strings_settings_on_txt" tools:ignore="MissingTranslation">On</string>
+    <string name="cam_strings_settings_save_photos_all_txt" tools:ignore="MissingTranslation">All photos</string>
+    <string name="cam_strings_settings_save_photos_one_txt" tools:ignore="MissingTranslation">Selected photo</string>
+    <string name="cam_strings_settings_save_photos_txt" tools:ignore="MissingTranslation">Save</string>
+    <string name="cam_strings_shortcut_video_camera_txt" tools:ignore="MissingTranslation">Video camera</string>
+    <string name="cam_strings_shutter_trigger_txt" tools:ignore="MissingTranslation">Auto capturing</string>
+    <string name="cam_strings_side_touch_not_supported_txt" tools:ignore="MissingTranslation">Side sense is not supported on this screen</string>
+    <string name="cam_strings_side_touch_on_title_txt" tools:ignore="MissingTranslation">Side sense</string>
+    <string name="cam_strings_side_touch_on_txt" tools:ignore="MissingTranslation">To use this function, go to Settings > Display and turn on Side sense. Enable now?</string>
+    <string name="cam_strings_side_touch_tutorial_title_txt" tools:ignore="MissingTranslation">Side sense</string>
+    <string name="cam_strings_side_touch_tutorial_txt" tools:ignore="MissingTranslation">"You can take a photo or video by simply double-tapping the sensor on the side of the screen instead of the shutter button. You can also zoom in or out by sliding your finger along this side sensor.
+Both photo and video mode support this function. You can turn this off from Side sense in camera settings."</string>
+    <string name="cam_strings_side_touch_tutorial_without_land_txt" tools:ignore="MissingTranslation">"You can take a photo or video by simply double-tapping the sensor on the side of the screen in portrait view instead of the shutter button. You can also zoom in or out by sliding your finger along this side sensor.
+Both photo and video mode support this function. You can turn this off from Side sense in camera settings."</string>
+    <string name="cam_strings_side_touch_tutorial_without_zoom_land_txt" tools:ignore="MissingTranslation">"You can take a photo or video by simply double-tapping the sensor on the side of the screen in portrait view instead of the shutter button.
+Both photo and video mode support this function. You can turn this off from Side sense in camera settings."</string>
+    <string name="cam_strings_side_touch_tutorial_without_zoom_txt" tools:ignore="MissingTranslation">"You can take a photo or video by simply double-tapping the sensor on the side of the screen instead of the shutter button.
+Both photo and video mode support this function. You can turn this off from Side sense in camera settings."</string>
+    <string name="cam_strings_side_touch_txt" tools:ignore="MissingTranslation">Side sense</string>
+    <string name="cam_strings_slow_motion_change_resolution_tutorial_txt" tools:ignore="MissingTranslation">Recording style and screen resolution can be changed in Camera settings</string>
+    <string name="cam_strings_slow_motion_settings_shot_txt" tools:ignore="MissingTranslation">Super slow (one-shot)</string>
+    <string name="cam_strings_slow_motion_settings_standard_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_slow_motion_settings_super_txt" tools:ignore="MissingTranslation">Super slow motion</string>
+    <string name="cam_strings_slow_motion_settings_tutorial_1_txt" tools:ignore="MissingTranslation">You can change the fps and recording style for slow motion</string>
+    <string name="cam_strings_slow_motion_settings_tutorial_title_txt" tools:ignore="MissingTranslation">More options</string>
+    <string name="cam_strings_slow_motion_shot_bright_place_tutorial_1_txt" tools:ignore="MissingTranslation">"Instantly record a precious moment in %1$s fps slow motion by tapping the button in the center of the screen.
+Recording in bright conditions will help you create a better video."</string>
+    <string name="cam_strings_slow_motion_shot_hint_1_txt" tools:ignore="MissingTranslation">You can record a right moment with %1$s fps by tapping the center button</string>
+    <string name="cam_strings_slow_motion_shot_tutorial_1_txt" tools:ignore="MissingTranslation">Instantly record a precious moment in %1$s fps slow motion by tapping the button in the center of the screen</string>
+    <string name="cam_strings_slow_motion_shot_tutorial_title_txt" tools:ignore="MissingTranslation">Super slow motion (one-shot)</string>
+    <string name="cam_strings_slow_motion_shot_txt" tools:ignore="MissingTranslation">Super slow motion (one-shot)</string>
+    <string name="cam_strings_slow_motion_standard_hint_1_txt" tools:ignore="MissingTranslation">Record a video with %1$s fps and apply slow motion effects</string>
+    <string name="cam_strings_slow_motion_standard_tutorial_1_txt" tools:ignore="MissingTranslation">You can record a video with multiple slow motion parts (120 fps slow motion)</string>
+    <string name="cam_strings_slow_motion_standard_tutorial_2_txt" tools:ignore="MissingTranslation">Record a video and then edit it to make select parts in slow motion. Tap the button in center of the screen to set the parts as slow motion.</string>
+    <string name="cam_strings_slow_motion_standard_tutorial_title_1_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_slow_motion_standard_tutorial_title_2_txt" tools:ignore="MissingTranslation">How to record</string>
+    <string name="cam_strings_slow_motion_standard_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_slow_motion_super_bright_place_tutorial_1_txt" tools:ignore="MissingTranslation">"Make an impressive video by showing a precious moment in slow motion.
+Recording in bright conditions will help you create a better video."</string>
+    <string name="cam_strings_slow_motion_super_hint_1_txt" tools:ignore="MissingTranslation">You can record video at different speeds by switching to %1$s fps</string>
+    <string name="cam_strings_slow_motion_super_hint_2_txt" tools:ignore="MissingTranslation">"Tap the button in the center
+at the right moment"</string>
+    <string name="cam_strings_slow_motion_super_hint_3_txt" tools:ignore="MissingTranslation">Slow motion recorded</string>
+    <string name="cam_strings_slow_motion_super_tutorial_1_txt" tools:ignore="MissingTranslation">Make an impressive video by showing a precious moment in slow motion</string>
+    <string name="cam_strings_slow_motion_super_tutorial_2_txt" tools:ignore="MissingTranslation">Start video recording by tapping the record button</string>
+    <string name="cam_strings_slow_motion_super_tutorial_3_txt" tools:ignore="MissingTranslation">Tap the button in the center of the screen to record in slow motion. Tap stop button to stop recording.</string>
+    <string name="cam_strings_slow_motion_super_tutorial_title_1_txt" tools:ignore="MissingTranslation">Super slow motion</string>
+    <string name="cam_strings_slow_motion_super_txt" tools:ignore="MissingTranslation">Super slow motion</string>
+    <string name="cam_strings_slow_motion_txt" tools:ignore="MissingTranslation">Slow motion mode</string>
+    <string name="cam_strings_smile_capture_big_txt" tools:ignore="MissingTranslation">Big smile</string>
+    <string name="cam_strings_smile_capture_faint_txt" tools:ignore="MissingTranslation">Small smile</string>
+    <string name="cam_strings_smile_capture_normal_txt" tools:ignore="MissingTranslation">Average smile</string>
+    <string name="cam_strings_smile_capture_txt" tools:ignore="MissingTranslation">Smile detection</string>
+    <string name="cam_strings_smile_shutter_cy_txt" tools:ignore="MissingTranslation">Smile Shutter</string>
+    <string name="cam_strings_smile_shutter_title_cy_txt" tools:ignore="MissingTranslation">Smile Shutter</string>
+    <string name="cam_strings_snackbar_dependency_button_txt" tools:ignore="MissingTranslation">Details</string>
+    <string name="cam_strings_snackbar_dependency_info_txt" tools:ignore="MissingTranslation">This change affected other settings</string>
+    <string name="cam_strings_soft_skin_effect_cy_txt" tools:ignore="MissingTranslation">Soft skin effect</string>
+    <string name="cam_strings_soft_skin_effect_title_cy_txt" tools:ignore="MissingTranslation">Soft skin effect</string>
+    <string name="cam_strings_standard_txt" tools:ignore="MissingTranslation">Standard</string>
+    <string name="cam_strings_steadyshot_cy_txt" tools:ignore="MissingTranslation">SteadyShot™</string>
+    <string name="cam_strings_step_tutorial_title_txt" tools:ignore="MissingTranslation">Step %1$s of %2$s</string>
+    <string name="cam_strings_store_fail_txt" tools:ignore="MissingTranslation">Could not save</string>
+    <string name="cam_strings_superior_auto_brightness_txt" tools:ignore="MissingTranslation">Brightness</string>
+    <string name="cam_strings_superior_auto_color_txt" tools:ignore="MissingTranslation">Color</string>
+    <string name="cam_strings_superior_auto_fusion_tutorial_title_txt" tools:ignore="MissingTranslation">Dual camera</string>
+    <string name="cam_strings_superior_auto_fusion_tutorial_txt" tools:ignore="MissingTranslation">You can take beautiful photos with low noise by using dual camera even at night or in the low-lit room. Camera automatically switches between single camera and dual camera based on the scenes to take with Ultra-high sensitivity.</string>
+    <string name="cam_strings_sw_licence_title_txt" tools:ignore="MissingTranslation">Software Licenses</string>
+    <string name="cam_strings_take_photo_txt" tools:ignore="MissingTranslation">Take photo</string>
+    <string name="cam_strings_term_of_use_accept_txt" tools:ignore="MissingTranslation">Accept</string>
+    <string name="cam_strings_term_of_use_consent_txt" tools:ignore="MissingTranslation">I consent to the Sony Mobile &lt;a href=\"http://www.sonymobile.com/terms-of-use-applications\">Terms of Use&lt;/a>.</string>
+    <string name="cam_strings_term_of_use_data_charge_txt" tools:ignore="MissingTranslation">Your use of this service may be subject to mobile data charges depending on your data plan.</string>
+    <string name="cam_strings_term_of_use_data_collection_txt" tools:ignore="MissingTranslation">Sony Mobile will collect your hashed Android ID unique device identifier, location-based data and timestamp in order to provide you with appropriate results as part of the service and for service improvements.</string>
+    <string name="cam_strings_term_of_use_decline_txt" tools:ignore="MissingTranslation">Decline</string>
+    <string name="cam_strings_term_of_use_title_txt" tools:ignore="MissingTranslation">Terms and Conditions</string>
+    <string name="cam_strings_term_of_use_txt" tools:ignore="MissingTranslation">&lt;a href=\"http://www.sonymobile.com/terms-of-use-applications\">Terms of Use&lt;/a></string>
+    <string name="cam_strings_timeshift_cancel_selection_txt" tools:ignore="MissingTranslation">Deselect photos</string>
+    <string name="cam_strings_timeshift_operation_failed_txt" tools:ignore="MissingTranslation">Could not save</string>
+    <string name="cam_strings_timeshift_save_complete_txt" tools:ignore="MissingTranslation">Saved</string>
+    <string name="cam_strings_timeshift_save_selection_txt" tools:ignore="MissingTranslation">Save separately</string>
+    <string name="cam_strings_timeshift_select_images_txt" tools:ignore="MissingTranslation">Select photos</string>
+    <string name="cam_strings_timeshift_share_txt" tools:ignore="MissingTranslation">Share</string>
+    <string name="cam_strings_touch_capturing_always_txt" tools:ignore="MissingTranslation">On</string>
+    <string name="cam_strings_touch_capturing_only_front_txt" tools:ignore="MissingTranslation">Only front camera</string>
+    <string name="cam_strings_touch_capturing_title_txt" tools:ignore="MissingTranslation">Touch capture</string>
+    <string name="cam_strings_touch_focus_in_manual_focus_txt" tools:ignore="MissingTranslation">To use Touch focus, change the focus setting to AF (auto focus).</string>
+    <string name="cam_strings_touch_to_focus_adjust_exposure_focus_and_exposure_txt" tools:ignore="MissingTranslation">Focus and brightness</string>
+    <string name="cam_strings_touch_to_focus_adjust_exposure_only_focus_txt" tools:ignore="MissingTranslation">Focus only</string>
+    <string name="cam_strings_touch_to_focus_adjust_exposure_txt" tools:ignore="MissingTranslation">Touch to adjust</string>
+    <string name="cam_strings_tutorial_bright_place_txt" tools:ignore="MissingTranslation">Recording in bright conditions will help you create a better video</string>
+    <string name="cam_strings_tutorial_button_next_txt" tools:ignore="MissingTranslation">Next</string>
+    <string name="cam_strings_tutorial_button_skip_txt" tools:ignore="MissingTranslation">Skip</string>
+    <string name="cam_strings_tutorial_button_txt" tools:ignore="MissingTranslation">Got it</string>
+    <string name="cam_strings_tutorial_title_txt" tools:ignore="MissingTranslation">Switch mode</string>
+    <string name="cam_strings_tutorial_txt" tools:ignore="MissingTranslation">Swipe to switch to another capturing mode such as Video or Manual</string>
+    <string name="cam_strings_unable_to_operate_txt" tools:ignore="MissingTranslation">Cannot operate while saving photos</string>
+    <string name="cam_strings_unlock_button_txt" tools:ignore="MissingTranslation">Unlock</string>
+    <string name="cam_strings_use_of_camera_not_authorized_txt" tools:ignore="MissingTranslation">Use of camera restricted for security reasons</string>
+    <string name="cam_strings_video_codec_for_4k_txt" tools:ignore="MissingTranslation">Recording file type</string>
+    <string name="cam_strings_video_explanatory_4k2k_setting_txt" tools:ignore="MissingTranslation">For stable 4K video recording, you must not change this setting unless you use a high-speed SD card (UHS Speed Class 1 or higher, or Speed Class 10 recommended).</string>
+    <string name="cam_strings_video_explanatory_high_frame_rate_setting_txt" tools:ignore="MissingTranslation">For stable Timeshift video recording, you must not change this setting unless you use a high-speed SD card (UHS Speed Class 1 or higher, or Speed Class 10 recommended). Change anyway?</string>
+    <string name="cam_strings_video_explanatory_slowmotion_setting_txt" tools:ignore="MissingTranslation">"For stable slow motion video recording, don't change this setting unless you use a high-speed SD card (UHS Speed Class 1 or higher, or Speed Class 10 recommended)."</string>
+    <string name="cam_strings_video_explanatory_txt" tools:ignore="MissingTranslation">"For stable video recording, we recommend you change data storage to Internal storage. Would you like to change now?
+
+If you continue to use SD card as data storage, be sure to use a high-speed SD card (UHS Speed Class 1 or higher, or Speed Class 10 recommended)."</string>
+    <string name="cam_strings_video_fusion_tutorial_0_title_txt" tools:ignore="MissingTranslation">Dual camera</string>
+    <string name="cam_strings_video_fusion_tutorial_0_txt" tools:ignore="MissingTranslation">You can record beautiful videos with low noise by using dual camera, even at night or in a low-lit room. Camera automatically switches between single camera and dual camera based on the scenes to record with Ultra-high sensitivity.</string>
+    <string name="cam_strings_video_fusion_tutorial_1_title_txt" tools:ignore="MissingTranslation">Video recording with dual camera</string>
+    <string name="cam_strings_video_fusion_tutorial_1_txt" tools:ignore="MissingTranslation">Keep at least 1 meter away from the object when recording with dual camera. Getting close to the object may cause a shift of the view point or color when recording in Ultra-high sensitivity.</string>
+    <string name="cam_strings_video_fusion_tutorial_2_title_txt" tools:ignore="MissingTranslation">Use dual camera for video recording?</string>
+    <string name="cam_strings_video_fusion_tutorial_2_txt" tools:ignore="MissingTranslation">To take great close-up photos, tap No and switch to single camera. You can change it back to dual camera anytime by tapping the button on the viewfinder.</string>
+    <string name="cam_strings_video_hdr_hlg_txt" tools:ignore="MissingTranslation">HDR is On</string>
+    <string name="cam_strings_video_hdr_setting_hlg_txt" tools:ignore="MissingTranslation">HDR</string>
+    <string name="cam_strings_video_hdr_title_txt" tools:ignore="MissingTranslation">HDR video</string>
+    <string name="cam_strings_video_hdr_txt" tools:ignore="MissingTranslation">HDR video</string>
+    <string name="cam_strings_video_resolution_4k_file_type_txt" tools:ignore="MissingTranslation">File format (4K)</string>
+    <string name="cam_strings_video_resolution_full_hd_30fps_txt" tools:ignore="MissingTranslation">Full HD (30 fps)</string>
+    <string name="cam_strings_video_resolution_full_hd_60fps_txt" tools:ignore="MissingTranslation">Full HD (60 fps)</string>
+    <string name="cam_strings_video_resolution_full_hd_frame_rate_txt" tools:ignore="MissingTranslation">Frame rate (Full HD)</string>
+    <string name="cam_strings_video_resolution_full_hd_super_slow_desc_txt" tools:ignore="MissingTranslation">Captures a wider area in half the recording time, differing from HD.</string>
+    <string name="cam_strings_video_resolution_full_hd_txt" tools:ignore="MissingTranslation">Full HD</string>
+    <string name="cam_strings_video_resolution_hd_super_slow_desc_txt" tools:ignore="MissingTranslation">Captures a narrower area in twice the recording time, differing from Full HD.</string>
+    <string name="cam_strings_video_resolution_hd_txt" tools:ignore="MissingTranslation">HD</string>
+    <string name="cam_strings_video_resolution_mms_txt" tools:ignore="MissingTranslation">MMS</string>
+    <string name="cam_strings_video_resolution_qvga_txt" tools:ignore="MissingTranslation">QVGA</string>
+    <string name="cam_strings_video_resolution_title_txt" tools:ignore="MissingTranslation">Video resolution</string>
+    <string name="cam_strings_video_resolution_txt" tools:ignore="MissingTranslation">Video resolution</string>
+    <string name="cam_strings_video_resolution_vga_txt" tools:ignore="MissingTranslation">VGA</string>
+    <string name="cam_strings_video_shutter_trigger_txt" tools:ignore="MissingTranslation">Auto capturing (video)</string>
+    <string name="cam_strings_video_size_4kuhd_txt" tools:ignore="MissingTranslation">4K (QFHD)</string>
+    <string name="cam_strings_video_size_full_hd_txt" tools:ignore="MissingTranslation">Full HD</string>
+    <string name="cam_strings_video_size_txt" tools:ignore="MissingTranslation">Video size</string>
+    <string name="cam_strings_video_smile_shutter_txt" tools:ignore="MissingTranslation">Smile Shutter (video)</string>
+    <string name="cam_strings_video_stabilizer_txt" tools:ignore="MissingTranslation">Video stabilizer</string>
+    <string name="cam_strings_volumekey_shutter_txt" tools:ignore="MissingTranslation">Shutter</string>
+    <string name="cam_strings_volumekey_txt" tools:ignore="MissingTranslation">Use Volume key as</string>
+    <string name="cam_strings_volumekey_volume_txt" tools:ignore="MissingTranslation">Volume</string>
+    <string name="cam_strings_volumekey_zoom_txt" tools:ignore="MissingTranslation">Zoom</string>
+    <string name="cam_strings_white_balance_auto_txt" tools:ignore="MissingTranslation">Auto</string>
+    <string name="cam_strings_white_balance_cloudy_txt" tools:ignore="MissingTranslation">Cloudy</string>
+    <string name="cam_strings_white_balance_day_light_txt" tools:ignore="MissingTranslation">Daylight</string>
+    <string name="cam_strings_white_balance_fluorescent_txt" tools:ignore="MissingTranslation">Fluorescent</string>
+    <string name="cam_strings_white_balance_incandescent_txt" tools:ignore="MissingTranslation">Incandescent</string>
+    <string name="cam_strings_white_balance_title_txt" tools:ignore="MissingTranslation">White balance</string>
+    <string name="cam_strings_white_balance_txt" tools:ignore="MissingTranslation">White balance</string>
+    <string name="cam_strings_zoom_help_txt" tools:ignore="MissingTranslation">Use volume key to zoom in/out</string>
+    <string name="cam_strings_zoom_not_supported_in_front_txt" tools:ignore="MissingTranslation">Cannot zoom with front camera</string>
+    <string name="cam_strings_zoom_not_supported_txt" tools:ignore="MissingTranslation">Zoom currently not available</string>
+    <string name="cam_strings_setting_common_title_txt" tools:ignore="MissingTranslation">Common</string>
+    <string name="cam_strings_setting_front_manual_title_txt" tools:ignore="MissingTranslation">Front photo (Manual)</string>
+    <string name="cam_strings_setting_front_photo_title_txt" tools:ignore="MissingTranslation">Front photo</string>
+    <string name="cam_strings_setting_front_video_title_txt" tools:ignore="MissingTranslation">Front video</string>
+    <string name="cam_strings_setting_main_title_txt" tools:ignore="MissingTranslation">Camera settings</string>
+    <string name="cam_strings_setting_manual_title_txt" tools:ignore="MissingTranslation">Manual</string>
+    <string name="cam_strings_setting_photo_title_txt" tools:ignore="MissingTranslation">Photo</string>
+    <string name="cam_strings_setting_slow_motion_title_txt" tools:ignore="MissingTranslation">Slow motion</string>
+    <string name="cam_strings_setting_video_title_txt" tools:ignore="MissingTranslation">Video</string>
+    <string name="cam_strings_setting_wide_title_txt" tools:ignore="MissingTranslation">Wide photo</string>
+    <string name="cam_strings_setting_wide_video_title_txt" tools:ignore="MissingTranslation">Wide video</string>
+    <string name="abc_font_family_body_1_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_body_2_material" tools:ignore="MissingTranslation">sans-serif-medium</string>
+    <string name="abc_font_family_button_material" tools:ignore="MissingTranslation">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_display_1_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_display_2_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_display_3_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_display_4_material" tools:ignore="MissingTranslation">sans-serif-light</string>
+    <string name="abc_font_family_headline_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_menu_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_subhead_material" tools:ignore="MissingTranslation">sans-serif</string>
+    <string name="abc_font_family_title_material" tools:ignore="MissingTranslation">sans-serif-medium</string>
+    <string name="accept" tools:ignore="MissingTranslation">Accept</string>
+    <string name="auth_google_play_services_client_facebook_display_name" tools:ignore="MissingTranslation">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name" tools:ignore="MissingTranslation">Google</string>
+    <string name="cam_status_recoding_hours_time_format_txt" tools:ignore="MissingTranslation">%1$d:%2$02d:%3$02d</string>
+    <string name="cam_status_recoding_time_format_txt" tools:ignore="MissingTranslation">%1$02d:%2$02d</string>
+    <string name="cam_strings_by_bambuser_txt" tools:ignore="MissingTranslation">by Bambuser</string>
+    <string name="cam_strings_focus_range_txt" tools:ignore="MissingTranslation">Focus Range</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_03_txt" tools:ignore="MissingTranslation">−0.3</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_07_txt" tools:ignore="MissingTranslation">−0.7</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_10_txt" tools:ignore="MissingTranslation">−1.0</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_13_txt" tools:ignore="MissingTranslation">−1.3</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_17_txt" tools:ignore="MissingTranslation">−1.7</string>
+    <string name="cam_strings_image_quality_control_exposure_value_negative_20_txt" tools:ignore="MissingTranslation">−2.0</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_03_txt" tools:ignore="MissingTranslation">+0.3</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_07_txt" tools:ignore="MissingTranslation">+0.7</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_10_txt" tools:ignore="MissingTranslation">+1.0</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_13_txt" tools:ignore="MissingTranslation">+1.3</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_17_txt" tools:ignore="MissingTranslation">+1.7</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_20_txt" tools:ignore="MissingTranslation">+2.0</string>
+    <string name="cam_strings_image_quality_control_exposure_value_positive_negative_0_txt" tools:ignore="MissingTranslation">±0.0</string>
+    <string name="cam_strings_image_quality_control_focus_auto_txt" tools:ignore="MissingTranslation">AF</string>
+    <string name="cam_strings_image_quality_control_focus_manual_txt" tools:ignore="MissingTranslation">MF</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_0.5_txt" tools:ignore="MissingTranslation">0.5</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_1_txt" tools:ignore="MissingTranslation">1</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_auto_txt" tools:ignore="MissingTranslation">AUTO</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_1000_txt" tools:ignore="MissingTranslation">1/1000</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_125_txt" tools:ignore="MissingTranslation">1/125</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_15_txt" tools:ignore="MissingTranslation">1/15</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_2000_txt" tools:ignore="MissingTranslation">1/2000</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_250_txt" tools:ignore="MissingTranslation">1/250</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_30_txt" tools:ignore="MissingTranslation">1/30</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_4000_txt" tools:ignore="MissingTranslation">1/4000</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_4_txt" tools:ignore="MissingTranslation">1/4</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_500_txt" tools:ignore="MissingTranslation">1/500</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_60_txt" tools:ignore="MissingTranslation">1/60</string>
+    <string name="cam_strings_image_quality_control_shutter_speed_denominator_8_txt" tools:ignore="MissingTranslation">1/8</string>
+    <string name="cam_strings_image_quality_control_tab_exposure_value_txt" tools:ignore="MissingTranslation">EV</string>
+    <string name="cam_strings_image_quality_control_tab_shutter_speed_txt" tools:ignore="MissingTranslation">SS</string>
+    <string name="cam_strings_image_quality_control_tab_white_balance_txt" tools:ignore="MissingTranslation">WB</string>
+    <string name="cam_strings_iso_10000_txt" tools:ignore="MissingTranslation">10000</string>
+    <string name="cam_strings_iso_100_txt" tools:ignore="MissingTranslation">100</string>
+    <string name="cam_strings_iso_12800_txt" tools:ignore="MissingTranslation">12800</string>
+    <string name="cam_strings_iso_1600_txt" tools:ignore="MissingTranslation">1600</string>
+    <string name="cam_strings_iso_200_txt" tools:ignore="MissingTranslation">200</string>
+    <string name="cam_strings_iso_3200_txt" tools:ignore="MissingTranslation">3200</string>
+    <string name="cam_strings_iso_400_txt" tools:ignore="MissingTranslation">400</string>
+    <string name="cam_strings_iso_50_txt" tools:ignore="MissingTranslation">50</string>
+    <string name="cam_strings_iso_6400_txt" tools:ignore="MissingTranslation">6400</string>
+    <string name="cam_strings_iso_800_txt" tools:ignore="MissingTranslation">800</string>
+    <string name="cam_strings_iso_title_txt" tools:ignore="MissingTranslation">ISO</string>
+    <string name="cam_strings_iso_txt" tools:ignore="MissingTranslation">ISO</string>
+    <string name="cam_strings_p_pixel_8mp_16_9_txt" tools:ignore="MissingTranslation">3840x2160(16:9)</string>
+    <string name="cam_strings_photo_resolution_10mp_16x9_txt" tools:ignore="MissingTranslation">10MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_12mp_16x9_txt" tools:ignore="MissingTranslation">12MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_12mp_4x3_txt" tools:ignore="MissingTranslation">12MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_13mp_4x3_txt" tools:ignore="MissingTranslation">13MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_15_5mp_16x9_txt" tools:ignore="MissingTranslation">15.5MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_18mp_16x9_txt" tools:ignore="MissingTranslation">17MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_18mp_4x3_txt" tools:ignore="MissingTranslation">19MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_1_7mp_4x3_txt" tools:ignore="MissingTranslation">1.7MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_1_8mp_16x9_txt" tools:ignore="MissingTranslation">1.8MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_20_7mp_4x3_txt" tools:ignore="MissingTranslation">20.7MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_20mp_16x9_txt" tools:ignore="MissingTranslation">20MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_23mp_4x3_txt" tools:ignore="MissingTranslation">23MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_2mp_16x9_txt" tools:ignore="MissingTranslation">2MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_2mp_4x3_txt" tools:ignore="MissingTranslation">2MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_3_7mp_16x9_txt" tools:ignore="MissingTranslation">3.7MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_3mp_4x3_txt" tools:ignore="MissingTranslation">3MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_5_8mp_16x9_txt" tools:ignore="MissingTranslation">5.8MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_5mp_16x9_txt" tools:ignore="MissingTranslation">5MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_5mp_4x3_txt" tools:ignore="MissingTranslation">5MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_6mp_16x9_txt" tools:ignore="MissingTranslation">6MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_7mp_4x3_txt" tools:ignore="MissingTranslation">7MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_8mp_16x9_txt" tools:ignore="MissingTranslation">8MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_8mp_4x3_txt" tools:ignore="MissingTranslation">8MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_9mp_16x9_txt" tools:ignore="MissingTranslation">9MP (16:9)</string>
+    <string name="cam_strings_photo_resolution_9mp_4x3_txt" tools:ignore="MissingTranslation">9MP (4:3)</string>
+    <string name="cam_strings_photo_resolution_uxga_txt" tools:ignore="MissingTranslation">1.9MP (4:3)</string>
+    <string name="cam_strings_recording_remaining_time_devider_txt" tools:ignore="MissingTranslation">/</string>
+    <string name="cam_strings_restricted_setting_hyphen_txt" tools:ignore="MissingTranslation"><node>—</node></string>
+    <string name="cam_strings_shutter_speed_txt" tools:ignore="MissingTranslation">Shutter Speed</string>
+    <string name="cam_strings_video_codec_for_4k_h264_txt" tools:ignore="MissingTranslation">H.264</string>
+    <string name="cam_strings_video_codec_for_4k_h265_txt" tools:ignore="MissingTranslation">H.265</string>
+    <string name="cam_strings_video_pixel_full_hd_txt" tools:ignore="MissingTranslation">1920x1080(16:9)</string>
+    <string name="cam_strings_video_pixel_hd_txt" tools:ignore="MissingTranslation">1280x720(16:9)</string>
+    <string name="cam_strings_video_resolution_h264_txt" tools:ignore="MissingTranslation">4K(H.264)</string>
+    <string name="cam_strings_video_resolution_h265_txt" tools:ignore="MissingTranslation">4K(H.265)</string>
+    <string name="cam_strings_video_size_hd_txt" tools:ignore="MissingTranslation">HD</string>
+    <string name="capturing_mode_selector_bidicheck_string" tools:ignore="MissingTranslation">@string/cam_strings_application_name_txt</string>
+    <string name="commonsetting_default_auto_upload" tools:ignore="MissingTranslation">OFF</string>
+    <string name="commonsetting_default_do_not_show_again_check_for_geotag_dialog" tools:ignore="MissingTranslation">NOT_CHECKED</string>
+    <string name="commonsetting_default_fast_capture" tools:ignore="MissingTranslation">LAUNCH_ONLY</string>
+    <string name="commonsetting_default_geo_tag" tools:ignore="MissingTranslation">OFF</string>
+    <string name="commonsetting_default_shutter_sound" tools:ignore="MissingTranslation">ON</string>
+    <string name="commonsetting_default_storage" tools:ignore="MissingTranslation">EMMC</string>
+    <string name="commonsetting_default_term_of_use" tools:ignore="MissingTranslation">NO_VALUE</string>
+    <string name="commonsetting_default_touch_block" tools:ignore="MissingTranslation">NO_VALUE</string>
+    <string name="commonsetting_default_touch_capture" tools:ignore="MissingTranslation">OFF</string>
+    <string name="commonsetting_default_volume_key" tools:ignore="MissingTranslation">ZOOM</string>
+    <string name="create_calendar_message" tools:ignore="MissingTranslation">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title" tools:ignore="MissingTranslation">Create calendar event</string>
+    <string name="decline" tools:ignore="MissingTranslation">Decline</string>
+    <string name="store_picture_message" tools:ignore="MissingTranslation">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title" tools:ignore="MissingTranslation">Save image</string>
+</resources>

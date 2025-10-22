@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.android.addoncamera.soundphoto.view.AudioPlayer android:id="@id/audio_player_base" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/soundphoto_play_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cam_soundphoto_play_icn" android:contentDescription="@string/cam_strings_accessibility_soundphoto_play_txt" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/auto_review_sound_progress" android:visibility="invisible" android:layout_width="@dimen/auto_review_progressbar_size" android:layout_height="@dimen/auto_review_progressbar_size" />
+</com.sonymobile.android.addoncamera.soundphoto.view.AudioPlayer>

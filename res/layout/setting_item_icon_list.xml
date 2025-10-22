@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list" android:layout_width="wrap_content" android:layout_height="@dimen/control_setting_dialog_height" />
+    <RelativeLayout android:background="@drawable/cam_dialog_separator_icn" android:layout_width="@dimen/center_divider_width" android:layout_height="fill_parent" />
+</LinearLayout>

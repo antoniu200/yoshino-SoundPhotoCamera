@@ -1,0 +1,76 @@
+android_app {
+    name: "OpenSoundPhotoCamera",
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,             // installs under priv-app
+    manifest: "AndroidManifest.xml",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    optimize: {
+        enabled: false,
+    },
+    static_libs: [
+        "androidx.core_core",
+        "androidx.annotation_annotation",
+        "androidx.media_media",
+        "com.google.android.material_material",
+    ],
+    jni_libs: [
+        "libmpo",
+        "libnativebytebuffer",
+        "libspf",
+    ],
+    dex_preopt: {
+        enabled: true,
+    },
+    compile_multilib: "32",
+}
+
+// libmpo.so
+cc_prebuilt_library_shared {
+    name: "libmpo",                 // app will reference it like this: System.loadLibrary("foo")
+    stl: "none",
+    strip: {
+        none: true                  // don’t strip prebuilt binaries
+    },
+    compile_multilib: "32",      // if you ship 32+64; otherwise pick "first"
+    arch: {
+        arm: {
+            srcs: ["lib/armeabi-v7a/libmpo.so"]
+        },
+        arm64: { enabled: false },
+    },
+    shared_libs: ["liblog", "libstdc++"],
+    vendor_available: false,
+    host_supported: false,
+}
+
+// libnativebytebuffer.so
+cc_prebuilt_library_shared {
+    name: "libnativebytebuffer",
+    stl: "none",
+    strip: { none: true },
+    compile_multilib: "32",
+    arch: {
+        arm:   { srcs: ["lib/armeabi-v7a/libnativebytebuffer.so"] },
+        arm64: { enabled: false },
+    },
+    shared_libs: ["liblog", "libstdc++"],
+    vendor_available: false,
+    host_supported: false,
+}
+
+// libspf.so
+cc_prebuilt_library_shared {
+    name: "libspf",
+    stl: "none",
+    strip: { none: true },
+    compile_multilib: "32",
+    arch: {
+        arm:   { srcs: ["lib/armeabi-v7a/libspf.so"] },
+        arm64: { enabled: false },
+    },
+    shared_libs: ["liblog", "libstdc++"],
+    vendor_available: false,
+    host_supported: false,
+}

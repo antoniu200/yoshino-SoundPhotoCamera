@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="shortcut_icon_count">5</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="acceptable_burst_shot_fps_x1000">10000</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="category_switch_textview_max_lines">2</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="focus_indicator_animation_fadeout_duration">70</integer>
+    <integer name="focus_indicator_animation_focusin_duration">70</integer>
+    <integer name="google_play_services_version">8115000</integer>
+    <integer name="rec_sequence_thumbnail_max_num">3</integer>
+    <integer name="setting_defaultdelaybeforefade">1000</integer>
+    <integer name="setting_fadeduration">1000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="threshold_for_variable_step_zoom">60</integer>
+</resources>
