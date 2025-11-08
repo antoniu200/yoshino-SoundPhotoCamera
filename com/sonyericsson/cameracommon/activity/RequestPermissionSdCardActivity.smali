@@ -157,7 +157,7 @@
     .line 84
     sget-object v4, Landroid/os/Environment;->DIRECTORY_DCIM:Ljava/lang/String;
 
-    invoke-virtual {v2, v4}, Landroid/os/storage/StorageVolume;->createAccessIntent(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v2}, Landroid/os/storage/StorageVolume;->createOpenDocumentTreeIntent()Landroid/content/Intent;
 
     move-result-object v0
 
